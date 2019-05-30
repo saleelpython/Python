@@ -1,12 +1,12 @@
-def fn():
-    a = 'Do you really want to quit?'
-    
-    ok = input(a)
-    if ok in ('y', 'ye', 'yes'):
-         print("Yes")
-    else:
-         print("No")
-   
+i = 10
+j = 10
+
+def fn(a=i, b=j):
+    print(a+b)
 
 fn()
-# fn('Do you really want to quit?')
+
+i = 20
+j = 20
+
+fn()
