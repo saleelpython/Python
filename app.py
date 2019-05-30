@@ -9,6 +9,5 @@ fn('Saleel', 'Bagde')
 print("---------------------------")
 fn(lastName='Patil', firstName='Nitish')
 
-
 print("---------------------------")
 fn('Sharmin', lastName='Bagde')
