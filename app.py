@@ -11,3 +11,5 @@ fn(lastName='Patil', firstName='Nitish')
 
 print("---------------------------")
 fn('Sharmin', lastName='Bagde')
+
+fn('Vrushali', 'Bagde', False, False)
