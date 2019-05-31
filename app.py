@@ -1,3 +1,3 @@
 import module1
 
-print (module1.person)
+print(module1.person)
