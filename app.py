@@ -1,3 +1,3 @@
+import module1
 
-
-print("sadfsda")
+print (module1.person)
