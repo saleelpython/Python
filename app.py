@@ -1,12 +1,5 @@
-char = ['a', 'f', 's', 'd', 'a', 's', 'f', 's', 'f', 'g']
+import module1
 
-def getChar(c):
-    if c == 's':
-        return True
-    else:
-        return False
+module1.printPerson(module1.person)
 
-c = list(filter(getChar, char))
-
-print(c)
-
+print(module1.person['firstName'])
