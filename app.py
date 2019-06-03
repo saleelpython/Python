@@ -13,5 +13,3 @@ days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sun
 
 for d in days:
     print(days.count(d))
-
-saleel
