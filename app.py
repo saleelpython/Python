@@ -1,3 +1,5 @@
+import random
+
 # def char_frequency(str1):
 #     dict = {}
 #     for n in str1:
@@ -9,7 +11,7 @@
 #     return dict
 # print(char_frequency('saleel'))
 
-days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'Monday']
 
-for d in days:
-    print(days.count(d))
+
+# for x in range(1, 10):
+#     print(round(random.random(),5))
