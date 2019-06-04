@@ -11,7 +11,5 @@ import random
 #     return dict
 # print(char_frequency('saleel'))
 
-
-
 # for x in range(1, 10):
 #     print(round(random.random(),5))
