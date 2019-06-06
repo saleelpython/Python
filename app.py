@@ -1,15 +1,14 @@
 import random
 
-# def char_frequency(str1):
-#     dict = {}
-#     for n in str1:
-#         keys = dict.keys()
-#         if n in keys:
-#             dict[n] += 1
-#         else:
-#             dict[n] = 1
-#     return dict
-# print(char_frequency('saleel'))
 
-# for x in range(1, 10):
-#     print(round(random.random(),5))
+
+x = [1, 6, 3, 7, 9, 4, 1, 4, 6, 8]
+d = {}
+for i in x:
+    k = d.keys()
+    if i in k:
+        d[i] += 1
+    else:
+        d[i] = 1
+print(d)
+

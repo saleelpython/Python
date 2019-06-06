@@ -30,3 +30,34 @@
 
 
 # # print(c)
+
+
+# que = ['Q' + str(x) for x in range(1, 11)]
+# opt = ['a' + str(x)+")" for x in range(1, 5)]
+
+
+# for q in que:
+#     print(f"{q})","What is DBT?")
+#     print("")
+#     print("Option")
+#     # print("")
+#     for o in opt:
+#         print(f"{o}")
+    
+#     print()
+#     print('--------------------------')
+#     print()
+
+# def char_frequency(str1):
+#     dict = {}
+#     for n in str1:
+#         keys = dict.keys()
+#         if n in keys:
+#             dict[n] += 1
+#         else:
+#             dict[n] = 1
+#     return dict
+# print(char_frequency('saleel'))
+
+# for x in range(1, 1000):
+#     print(round(random.random(),5))
