@@ -1,14 +1,14 @@
-import random
+def fn():
+    """ **************************************
+     Description: "Code for testing"
+     Author: saleel bagde
+     Date: 07-07-2019
+ **************************************   """
+    print("Hello World")
 
+print(fn.__doc__)
+print()
+l = [1, 5, 'saleel', 'orange', '07-07-2019', 45.67, None]
 
-
-x = [1, 6, 3, 7, 9, 4, 1, 4, 6, 8]
-d = {}
-for i in x:
-    k = d.keys()
-    if i in k:
-        d[i] += 1
-    else:
-        d[i] = 1
-print(d)
-
+for i in enumerate(l, 100):
+    print(i)

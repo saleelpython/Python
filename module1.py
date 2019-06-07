@@ -6,9 +6,6 @@
     
 
 # codeNumber = [1, 56, 7, 4, 2, 4, 7, 5, 34, 67, 42, 2, 4, 5,]
-
-
-
 # def getCodeNumber(c):
 #         if c > 10:
 #                 return True
