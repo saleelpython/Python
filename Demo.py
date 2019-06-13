@@ -106,10 +106,10 @@
 
 
 
-import json
+# import json
 
-with open('Superstore.json') as p:
-    data = json.load(p)
+# with open('Superstore.json') as p:
+#     data = json.load(p)
 
 # for i in range(0, len(data)):
 #     print(f"Document {i}")
