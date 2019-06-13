@@ -136,3 +136,34 @@
 #     print((r[i]['Region']))
 
 #     print("-----------------------------")
+
+
+# import json
+
+# with open("Person.json") as p:
+#     data = json.load(p)
+
+# l=[]   
+# for i in data:
+#     l.append(int(i["ID"]))
+
+
+# def findName(d):
+#     if int(d["ID"]) in l: # [1001, 1002, 1005]:
+#         return True
+#     else:
+#         return False
+
+# p = list(filter(findName, data))
+
+# for i in range(0, len(p)):
+#     for keys, values in p[i].items():
+#         print(f"{keys} {values}")
+#     print("----------------------------")
+
+
+
+
+
+
+
