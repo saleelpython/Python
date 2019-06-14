@@ -164,6 +164,21 @@
 
 
 
+# GUI
+
+# r = tk.Tk() 
+# r.title('Counting Seconds') 
+# firstFrame = tk.Frame(r,height="400", width="400", bg='black')
+
+# button = tk.Button(firstFrame, text='Stop', width=35, command=r.destroy, bg="Red", fg="yellow")
+# button.pack(side="left")
+# label1 = tk.Label(firstFrame, text="First Name", bg='blue')
+# label1.pack(side="left")
+
+# firstFrame.pack()
+
+# r.mainloop() 
+
 
 
 
