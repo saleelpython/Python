@@ -162,6 +162,18 @@
 #     print("----------------------------")
 
 
+# print(help('for'))
+
+
+# def fn(a):
+#     return ["Odd", "Even"][a%2==0]
+
+# print(fn(int(input('Enter number'))))
+
+
+
+
+
 
 
 # GUI
