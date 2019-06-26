@@ -176,6 +176,27 @@
 
 
 
+# emp = [
+#         {"indexID": 1, "firstName": "Saleel", "canVote":"True", "canDrive":"False","qty":4, "rate":1000},
+#         {"indexID": 2, "firstName": "Sharmin", "canVote": "True", "canDrive": "False","qty":7, "rate":475},
+#         {"indexID": 3, "firstName": "Vrushali", "canVote": "True", "canDrive": "True","qty":6, "rate":500},
+#         {"indexID": 4, "firstName": "Nitish", "canVote": "True", "canDrive": "True","qty":10, "rate":1200},
+#         {"indexID": 5, "firstName": "Ruhan", "canVote": "True", "canDrive": "True","qty":12, "rate":750}
+#     ]
+
+
+# for e in emp:
+#     e.update({"Total": e.get('qty') * e.get('rate')})
+
+# for e in emp:
+#     for key, value in e.items():
+#         print(f"{key} - {value}")
+#     print('-' * 40)
+
+
+
+
+
 # GUI
 
 # r = tk.Tk() 
