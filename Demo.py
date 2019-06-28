@@ -195,6 +195,19 @@
 
 
 
+# l = [input("Products: ") for x in range(6)]
+
+# for x in l:
+#     print(f"{str.title(x)}")
+
+
+# l1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,23,435,576]
+# l2 = [1, 2, 3, 4, 5, 6, 7, 9,11,12,15,12]
+
+
+# for x in range(len(l1)):
+#         if l1[x] not in l2:
+#                 print(l1[x])
 
 
 # GUI
