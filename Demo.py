@@ -210,6 +210,29 @@
 #                 print(l1[x])
 
 
+
+customer = [
+#         {"id": "1001", "name": "saleel", "products": ['pen', 'nut', 'hammer', 'rubber']},
+#         {"id": "1002", "name": "sharmin", "products": ['mobile', 'maggi', 'suger', 'tv']},
+#         {"id": "1003", "name": "vrushali", "products": ['tea', 'coffee', 'banana', 'orange']},
+#         {"id": "1004", "name": "ruhan", "products": ['bag', 'ball', 'belt', 'cycle']},
+#         {"id":"1005", "name": "neel", "products": ['mobile', 'head phone']}
+#         ]
+
+# custId = input("Enter customer Id ")
+
+# def getCustomer(l):
+#         if l["id"] == custId:
+#                 return True
+#         else:
+#                 return False
+
+# x = list(filter(getCustomer, customer))
+
+# for key, value in x[0].items():
+#         print(f"{key}:{value}")
+
+
 # GUI
 
 # r = tk.Tk() 
