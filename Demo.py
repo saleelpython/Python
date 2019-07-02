@@ -1,3 +1,6 @@
+# True and non-empty things are true. Number 1 is true.
+# False, None, zero, and empty things are false.
+
 # person = [{"firstName": "Saleel", "lastName": "Bagde"}]
 
 # def printPerson(per):
