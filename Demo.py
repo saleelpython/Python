@@ -108,6 +108,18 @@
 
 
 
+# fruits = ['apple', 'orange', 'grapes', 'mango']
+
+# def fn(l=[]):
+#     for x in l:
+#         if x in fruits:
+#             print("Present")
+   
+# fn(['grapes','grapes'])
+
+
+
+
 
 # import json
 
