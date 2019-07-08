@@ -1,6 +1,12 @@
 # True and non-empty things are true. Number 1 is true.
 # False, None, zero, and empty things are false.
 
+
+#!C:\Users\saleel\AppData\Local\Programs\Python\Python37-32\python
+# print(4 + 5)
+
+
+
 # person = [{"firstName": "Saleel", "lastName": "Bagde"}]
 
 # def printPerson(per):
