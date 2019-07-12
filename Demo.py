@@ -227,7 +227,7 @@
 
 
 
-customer = [
+# customer = [
 #         {"id": "1001", "name": "saleel", "products": ['pen', 'nut', 'hammer', 'rubber']},
 #         {"id": "1002", "name": "sharmin", "products": ['mobile', 'maggi', 'suger', 'tv']},
 #         {"id": "1003", "name": "vrushali", "products": ['tea', 'coffee', 'banana', 'orange']},
@@ -247,6 +247,25 @@ customer = [
 
 # for key, value in x[0].items():
 #         print(f"{key}:{value}")
+
+
+
+
+# l1 = [1, 2, 5, 1, 6, 8, 9, 4, 2, 6, 9, 4, 1, 2, 5, 3, 1, 6, 3, 7, 9, 14]
+
+# furit = ['orange', 'kiwi', 'lime', 'apple', 'blackberry', 'watermelon']
+
+# l2 = []
+
+# for x in l1:
+#         if x not in l2:
+#                 l2.append(x)
+#         else:
+#                 l2.remove(x)
+
+# print(l2)
+
+
 
 
 # GUI
