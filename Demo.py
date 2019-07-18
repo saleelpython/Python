@@ -19,11 +19,17 @@
 
 # names = ['saleel', 'vrushali', 'sharmin']
 # number = [ 1, 4, 3]
-
 # fn = lambda name: (x for x in zip(number, names))
-
 # for x in fn(names):
 #     print(x)
+
+
+
+
+# import random
+# print(random.choice(['North', 'South', 'East', 'West']))
+
+
 
 
 
