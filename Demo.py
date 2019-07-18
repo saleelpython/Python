@@ -17,6 +17,16 @@
 #                 return False
 
 
+# names = ['saleel', 'vrushali', 'sharmin']
+# number = [ 1, 4, 3]
+
+# fn = lambda name: (x for x in zip(number, names))
+
+# for x in fn(names):
+#     print(x)
+
+
+
 # import module1
 
 # # # print(module1.person)
@@ -28,9 +38,18 @@
 # #     print(f"processed items {x}")
 
 # # c = list(filter(module1.getCodeNumber, module1.codeNumber))
-
-
 # # print(c)
+
+
+# l1 = [x for x in range(6)]
+# l2 = ['blackberry', 'grapes', 'blueberry', 'fig', 'lemon','kiwi','mango']
+# for x in zip(l1, l2):
+#     print(x)
+
+
+# l1 = [1, 4, 5, 3, 1, 7, 2]
+# l2 = [4, 1, 6, 8, 4, 2, 8, 0]
+# print([x for x in l1 if x not in l2])
 
 
 # que = ['Q' + str(x) for x in range(1, 11)]
@@ -187,7 +206,9 @@
 # print(fn(int(input('Enter number'))))
 
 
-
+# def g(l, h):
+#     for x in range(l, h):
+#         yield x
 
 
 
@@ -247,6 +268,10 @@
 
 # for key, value in x[0].items():
 #         print(f"{key}:{value}")
+
+
+# fruit = ['blackberry', 'grapes', 'blueberry', 'fig', 'lemon', 'watermelon', 'apple', 'kiwi', 'lime', 'mango']
+# print([f.upper() for f in fruit])
 
 
 

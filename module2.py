@@ -1,4 +1,5 @@
+print("Module2.py")
 
-
-print(__name__)
-print("I am in module2")
+for x in range(0, 12):
+    print(x)
+    
