@@ -25,6 +25,19 @@
 
 
 
+# import random
+
+# z = ["North", "South", "East", "West"]
+# deck = list(range(1, 53))
+
+# print(random.sample(deck, 5))
+# print(random.sample(deck, 5))
+# print(random.sample(deck, 5))
+# print(random.sample(deck, 5))
+
+
+
+
 
 # import random
 # print(random.choice(['North', 'South', 'East', 'West']))
