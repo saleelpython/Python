@@ -44,8 +44,6 @@
 
 
 
-
-
 # import module1
 
 # # # print(module1.person)
@@ -71,6 +69,19 @@
 # print([x for x in l1 if x not in l2])
 
 
+
+# country = ["Afghanistan", "Italy", "India", "Japan", "United Kingdom", "Vietnam", "Russia", "Nepal", "Bangladesh"]
+# capital = ["Kabul", "Rome", "New Delhi", "Tokyo", "London", "Hanoi", "Moscow", "Kathmandu", "Dhaka"]
+# state = []
+
+# world = {key: value for key, value in zip(country, capital)}
+
+# for k, v in world.items():
+#     print(f"{k}:{v}")
+
+
+
+
 # que = ['Q' + str(x) for x in range(1, 11)]
 # opt = ['a' + str(x)+")" for x in range(1, 5)]
 
@@ -87,6 +98,7 @@
 #     print('--------------------------')
 #     print()
 
+
 # def char_frequency(str1):
 #     dict = {}
 #     for n in str1:
@@ -98,8 +110,11 @@
 #     return dict
 # print(char_frequency('saleel'))
 
+
+
 # for x in range(1, 1000):
 #     print(round(random.random(),5))
+
 
 
 # ll = {}
@@ -133,6 +148,8 @@
 #       print(f"{keys} {values}")
 
 # fn(firstName='Saleel', lastName='Bagde')
+
+
 
 # colours = (
 #     ('Yasoob', 'Yellow'),
@@ -257,8 +274,8 @@
 #     print(f"{str.title(x)}")
 
 
-# l1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,23,435,576]
-# l2 = [1, 2, 3, 4, 5, 6, 7, 9,11,12,15,12]
+# l1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 23, 435, 576]
+# l2 = [1, 2, 3, 4, 5, 6, 7, 9, 11, 12, 15, 12]
 
 
 # for x in range(len(l1)):
