@@ -20,9 +20,5 @@ y = 1234567
 # print(x)
 # print(y % 10)
 
-while (y >0):
-    a = (y % 10)
-    y = round(y // 10)
-    print(a)
-    
+
     
