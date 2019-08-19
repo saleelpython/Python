@@ -17,4 +17,3 @@ for x in range(1, a + 1):
     print(x)
 print(b)
 
-1 + 2 + 3 + 4 + 5 + 6
