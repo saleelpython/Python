@@ -31,6 +31,26 @@
 
 
 
+# l1 = [1, 3, 5, 7, 9]
+# l2 = [2, 4, 6, 8, 8, 10]
+
+# l3=[]
+# a = 0
+# b = 0
+
+# while a < len(l1) and b < len(l2) :
+#    if l1[a] < l2[b]:
+#       l3.append(l1[a])
+#       a+=1
+#    else :
+#       l3.append(l2[b])
+#       b+=1
+
+# print(l3)
+
+
+
+
 # person = [{"firstName": "Saleel", "lastName": "Bagde"}]
 
 # def printPerson(per):
