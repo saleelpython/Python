@@ -397,6 +397,16 @@
 # r.mainloop() 
 
 
+
+# year = 2028
+
+# if (year % 4) == 0 or (year % 100) == 0 or (year % 400) == 0:
+#     print("{0} is a leap year".format(year))
+# else:
+#     print("{0} is not a leap year".format(year))
+
+
+
 # -------------------------------
 
 # import tkinter as tk
