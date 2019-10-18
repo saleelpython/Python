@@ -407,6 +407,23 @@
 
 
 
+# fruits = ['banana','grapes','orange','apple','kiwi']
+
+# def fn(f, /):
+#     if f in ['banana','grapes','orange','apple','kiwi']:
+#         return True
+#     else:
+#         return False
+       
+# for x in filter(fn, ['banana','grapes','orange','apple','kiwi']):
+#     if (store := len(x)) > 5:
+#         print(f'{x} has {store} char')
+#     else:
+#         print(f'{x} has {store} char')
+
+
+
+
 # -------------------------------
 
 # import tkinter as tk
