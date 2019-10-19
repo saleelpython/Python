@@ -203,6 +203,17 @@
 
 
 
+# data = {"_id":"1001", "name":"saleel", "canVote":True, "canDrive":True}
+
+# def fn(**kwargs):
+#     for key, value in kwargs.items():
+#         print(f"{key} {value}")
+    
+# fn(**data)
+
+
+
+
 # colours = (
 #     ('Yasoob', 'Yellow'),
 #     ('Ali', 'Blue'),
