@@ -212,6 +212,15 @@
 # fn(**data)
 
 
+# person = dict(x=1, y=2, z=3)
+# person1 = dict({'x':1, "y":2, "z":3})
+# person2 = dict({'x':1, "y":2}, z=3)
+
+# def fn(**kwargs):
+#     for key, value in kwargs.items():
+#         print(f'{key} {value}')
+
+
 
 
 # colours = (
