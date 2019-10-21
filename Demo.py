@@ -7,6 +7,16 @@
 
 # List Comprehensions
 
+# string='saleel'
+# print(string[:4] if len(string) < 10 else string[0])
+
+
+
+
+# print(['word','name','color','games'][int(input("Enter index "))])
+
+
+
 
 # fruit = ['blackberry', 'grapes', 'blueberry', 'fig', 'lemon', 'watermelon', 'apple', 'kiwi', 'lime', 'mango','blackberry']
 
@@ -17,6 +27,8 @@
 # cities = [[1,2], [3,4], [5,6], [7,8], [9, 10], [11, 12], [13,14], [15,16], [17,18]]
 
 
+
+
 # a = 5
 # b = 1
 # for x in range(1, a + 1):
@@ -25,12 +37,16 @@
 # print(b)
 
 
+
+
 # www ="www.google.com"
 # d = dict()
 # for x in www:
 #    d[x] = www.count(x)
 
 # print(d)
+
+
 
 
 
@@ -60,6 +76,9 @@
 #     for key, value in per.items():
 #         print(f"{key}{value}")
     
+
+
+
 
 # codeNumber = [1, 56, 7, 4, 2, 4, 7, 5, 34, 67, 42, 2, 4, 5,]
 # def getCodeNumber(c):
@@ -116,9 +135,13 @@
 #     print(x)
 
 
+
+
+
 # l1 = [1, 4, 5, 3, 1, 7, 2]
 # l2 = [4, 1, 6, 8, 4, 2, 8, 0]
 # print([x for x in l1 if x not in l2])
+
 
 
 
@@ -169,6 +192,7 @@
 
 
 
+
 # ll = {}
 
 # for i in l:
@@ -183,6 +207,7 @@
 #     if value == m:
 #         print(key)
 #         break
+
 
 
 
@@ -212,6 +237,8 @@
 # fn(**data)
 
 
+
+
 # person = dict(x=1, y=2, z=3)
 # person1 = dict({'x':1, "y":2, "z":3})
 # person2 = dict({'x':1, "y":2}, z=3)
@@ -233,6 +260,9 @@
 # )
 
 # print(colours)
+
+
+
 
 
 
