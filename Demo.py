@@ -246,9 +246,25 @@
 # fn(['grapes','grapes'])
 
 
+#------------ JSON progs.. ----------------------------------
 
 
+# import json as js
 
+# Employee=[
+#     {"ID": "1001", "firstName": "Saleel", "lastName": "Bagde", "canVote": "True", "canDrive": "True"}, 
+#     {"ID": "1002", "firstName": "Vrushali", "lastName": "Bagde", "canVote": "True", "canDrive": "False"}, 
+#     {"ID": "1003", "firstName": "Sharmin", "lastName": "Bagde", "canVote": "True", "canDrive": "True"}, 
+#     {"ID": "1004", "firstName": "Nitish", "lastName": "Patil", "canVote": "True", "canDrive": "True"}, 
+#     {"ID": "1005", "firstName": "Neel", "lastName": "Save", "canVote": "False", "canDrive": "True"}, 
+#     {"ID": "1006", "firstName": "Deep", "lastName": "Save", "canVote": "False", "canDrive": "False"}, 
+#     {"ID": "1007", "firstName": "Ruhan", "lastName": "Bagde", "canVote": "False", "canDrive": "False"}
+# ]
+# data = js.dumps(Employee)
+# x = js.loads(data)
+# print(x)
+
+# ---------------------------------------------------
 # import json
 
 # with open('Superstore.json') as p:
@@ -262,7 +278,7 @@
 #     print();
 #     print("-----------------------------------")
 
-
+# ---------------------------------------------------
 # def getRegion(d):
 #     if d['Region'] in "West":
 #         return True
@@ -280,6 +296,7 @@
 
 #     print("-----------------------------")
 
+# ---------------------------------------------------
 
 # import json
 
