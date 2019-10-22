@@ -12,9 +12,12 @@
 
 
 
-
 # print(['word','name','color','games'][int(input("Enter index "))])
 
+
+
+# while (a:= int(input('continue '))) < 10:
+#     print('saleel')
 
 
 
