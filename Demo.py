@@ -15,6 +15,16 @@
 # a, b, *c = 1,2,3,4,5
 # print(a,b, c)
 
+# a, b, *c, d = 1,2,3,4,5
+# print(a, b, c, d)
+
+
+# a, b, *c = 1,2, {"_id":"1001"}, {"_id":"1002"}, {"_id":"1003"}
+
+# for i in range(len(c)):
+#     for key, value in c[i].items():
+#         print(f'{key} {value}')
+
 
 
 # print(['word','name','color','games'][int(input("Enter index "))])
@@ -51,9 +61,15 @@
 # d = dict()
 # for x in www:
 #    d[x] = www.count(x)
-
 # print(d)
 
+
+
+# string = "www.google.com"
+# d = {}
+# for x in string:
+#     d.setdefault(x, string.count(x))
+# print(d)
 
 
 
