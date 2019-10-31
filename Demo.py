@@ -72,6 +72,20 @@
 
 
 
+# productList = set()
+# z=None
+# while (c := input('do you want to continue (y)es/ (n)o ')) == 'y':
+#     x, x1 = (z := input('d'), len(z))
+#     if x1 > 6 :
+#         productList.add(z)
+#     else:
+#         print(f'Length of proeuct {x, x1} is less than 6')
+
+# print(productList)
+
+
+
+
 
 # person = [{"firstName": "Saleel", "lastName": "Bagde"}]
 
