@@ -10,6 +10,9 @@
 # string='saleel'
 # print(string[:4] if len(string) < 10 else string[0])
 
+# l = [i for i in range(1,11) if i < 7]
+
+
 
 
 # a, b, *c = 1,2,3,4,5
