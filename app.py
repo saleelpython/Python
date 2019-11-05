@@ -1,7 +1,6 @@
 fruits = [('orange','banana','kiwi'),('banana','apple'),('blackberry','blueberry'), ('lime', 'kiwi', 'apple')]
 
 
-print(fruits[0])
 
 
 f = list()
