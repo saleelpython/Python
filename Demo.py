@@ -326,6 +326,19 @@
 #------------ JSON progs.. ----------------------------------
 
 
+# import json
+
+# with open ('emp.json', 'r') as fp:
+#     data = json.load(fp)
+
+
+# for i in range(int(input ('first')), len(data)):
+#     print(f'SrNo. [{i}] - {data[i]["ename"]}')
+
+#---------------------------------------------------
+
+
+
 # import json as js
 
 # Employee=[
