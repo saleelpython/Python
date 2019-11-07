@@ -1,3 +1,3 @@
-saleel bagde
+x = lambda : "Hello Wrold"
 
-From git hub
+print(x())
