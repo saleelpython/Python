@@ -1,7 +1,9 @@
-x = lambda : "Hello Wrold"
-print(x())
+www = "www.google.com"
 
-#------------------------------------------
+d = dict()
 
-y = lambda i : i*3
-print(y(7))
+for i in range(len(www)):
+    d.setdefault(www[i], www.count(www[i]))
+
+print(d)
+
