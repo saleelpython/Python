@@ -1,0 +1,21 @@
+
+class FileContextManager:
+    def __init__(self, name):
+        print('FileContextManager __init__')
+        self.name = name
+    
+    def __enter__(self):
+         print('FileContextManager __enter__')
+         self.fd = open(self.name, 'a')
+         return self.fd
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+         print('FileContextManager __exit__')
+         if self.fd:
+             self.fd.close()
+with FileContextManager('hello.txt') as f:
+    print("With data to file")
+    f.write('saleel')
+    f.write('bagde')
+
+print("Done with context manager")
