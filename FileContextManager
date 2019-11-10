@@ -13,9 +13,12 @@ class FileContextManager:
          print('FileContextManager __exit__')
          if self.fd:
              self.fd.close()
+             
 with FileContextManager('hello.txt') as f:
     print("With data to file")
     f.write('saleel')
     f.write('bagde')
 
 print("Done with context manager")
+
+
