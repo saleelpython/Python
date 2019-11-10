@@ -40,14 +40,9 @@ def main():
 
 main()
 
-
-
-C:\> cle=s && python -m pdb app.py
-
-
-
-
 (Pdb) h for help
 
-main()
+
+#----------------------------------------------------------------------------------------------
+C:\> cls && python -m pdb app.py
 
