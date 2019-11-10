@@ -38,6 +38,14 @@ def main():
     pdb.set_trace()
     fn(10,20)
 
+main()
+
+
+
+C:\> cle=s && python -m pdb app.py
+
+
+
 
 (Pdb) h for help
 
