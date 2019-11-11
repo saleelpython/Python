@@ -10,6 +10,9 @@
 # Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.
 
 
+
+# In Python any non-zero integer value is true; zero is false.
+
 # Comprehensions in Python
 
 
