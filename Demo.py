@@ -47,7 +47,21 @@
 #     for key, value in c[i].items():
 #         print(f'{key} {value}')
 
+#---------------------------------------------------------
 
+# Generator 
+
+# numbers = (1001,1002,1003, 1004, 1005, 1006, 1006, 1007, 1008, 1009, 1010)
+# def getList(l):
+#     for i in l:
+#         yield i
+# x = getList(numbers)
+# print(next(x))
+# print(next(x))
+# print(next(x))
+# print(next(x))
+
+#---------------------------------------------------------
 
 # print(['word','name','color','games'][int(input("Enter index "))])
 

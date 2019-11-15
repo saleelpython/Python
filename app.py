@@ -1,5 +1,6 @@
-def fn(a, b):
-    return a == b
+# def fn(a, b):
+#     return a >= b
+
+# print(fn('a', 'a'))
 
 
-print(fn('a', 'a'))
