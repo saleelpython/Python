@@ -61,6 +61,25 @@
 # print(next(x))
 # print(next(x))
 
+
+
+
+# def all_even():
+#     n = 0
+#     while True:
+#         yield n
+#         n += 1
+
+# x = all_even()
+
+# print(next(x))
+# print(next(x))
+# print(next(x))
+# print(next(x))
+# print(next(x))
+
+
+
 #---------------------------------------------------------
 
 # print(['word','name','color','games'][int(input("Enter index "))])
