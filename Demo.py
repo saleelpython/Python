@@ -82,6 +82,22 @@
 
 #---------------------------------------------------------
 
+
+# fruits = ['blackberry', 'grapes', 'blueberry', 'fig', 'lemon', 'watermelon', 'apple', 'kiwi', 'lime', 'mango','blackberry']
+
+# x = fruits.__iter__()
+
+# while True:
+#     try:
+#         print(x.__next__())
+#     except StopIteration:
+#         print('done')
+#         break
+
+
+
+#---------------------------------------------------------
+
 # print(['word','name','color','games'][int(input("Enter index "))])
 
 
