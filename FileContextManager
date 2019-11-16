@@ -46,7 +46,110 @@ C:\> cls && python -m pdb app.py
 
 
 
+#------------------------------------------------------------------------------------------------------------------
 
+import MySQLdb
+import sys
+import time
+
+con = None
+try:
+    #con = MySQLdb.connect('localhost', 'root', '', 'PythonDemo');
+    con = MySQLdb.connect('192.168.43.3', 'root', 'root', 'db1')
+
+    print("Connected to databse")
+    time.sleep(1)
+
+    cur = con.cursor()
+    cur.execute("SELECT VERSION()")
+    ver = cur.fetchone()
+    print("Type of ver: ", type(ver))
+    print("Database version : ", ver)
+   
+    cur.execute("create table if not exists employee (eid int primary key , ename varchar(25), age int)")
+    cur.execute("insert into employee values(1, \"Rakesh\", 30)")
+
+    cur.execute("SELECT * from employee")
+    ver = cur.fetchall()
+    print("Type of ver: ", type(ver))
+    print("Employee table entries : ", ver)
+
+    cur.execute("update employee set ename=\"\" where eid=1")
+    cur.execute("SELECT * from employee")
+    ver = cur.fetchall()
+    print("After Update query table entries are : ", ver)
+
+    cur.execute("insert into employee values(6,\"Jay\", 25)")
+    cur.execute("insert into employee values(2,\"Bob\", 32)")
+    cur.execute("SELECT * from employee")
+    ver = cur.fetchall()
+    print("After Insert Employee table entries : ", ver)
+    con.commit()
+
+except MySQLdb.Error as e:
+    print("Error %d: %s" % (e.args[0],e.args[1]))
+    sys.exit(1)
+finally:           
+    if con:    
+        con.close()
+
+
+#------------------------------------------------------------------------------------------------------------------
+
+
+
+
+#------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+#------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+#------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+#------------------------------------------------------------------------------------------------------------------
+
+
+
+
+#------------------------------------------------------------------------------------------------------------------
+
+
+
+#------------------------------------------------------------------------------------------------------------------
+
+
+
+
+#------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+#------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+#------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+#------------------------------------------------------------------------------------------------------------------
 
 
 
