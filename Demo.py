@@ -717,3 +717,21 @@
 # x = cursor.execute("select * from emp")
 
 # print(list(x))
+
+#---------------------------------------------------------------------------------
+
+# import cx_Oracle
+# try:
+#     con = cx_Oracle.connect('c##saleel/saleel@orcl')
+#     cursor = con.cursor() 
+#     cursor.execute("insert all into dept values(1,1,1,1) into dept values(2,1,1,1) select * from dual")
+#     con.commit()
+
+# except cx_Oracle.DatabaseError as ex:
+#      print("There is a problem with Oracle", ex)
+
+# finally:
+#     print('Connection closed!')
+#     cursor.close()
+#     con.close()
+
