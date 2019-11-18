@@ -700,3 +700,20 @@
 #     print()
 #     print('-'*30)
 #     print()
+
+
+#------------------------------------------------------------------------------
+
+#Oracle connection
+
+
+# pip install cx-Oracle
+# import cx_Oracle
+
+# con = cx_Oracle.connect('c##saleel/saleel@orcl')
+
+# cursor = con.cursor() 
+
+# x = cursor.execute("select * from emp")
+
+# print(list(x))
