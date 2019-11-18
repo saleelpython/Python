@@ -684,3 +684,19 @@
 
 # win.mainloop()
 
+#---------------------------------------------------------------------
+
+# MongoDB
+
+# import pymongo
+
+# client = pymongo.MongoClient(host="192.168.100.20", port= 27017)
+# db = client['primaryDB']
+# collection = db["emp"]
+
+# for i in collection.find({}, {"_id":False}) :
+#     for key, value in i.items():
+#         print(f"{key} : {value}")
+#     print()
+#     print('-'*30)
+#     print()
