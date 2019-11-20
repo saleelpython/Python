@@ -354,6 +354,8 @@
 
 
 
+
+
 # person = dict(x=1, y=2, z=3)
 # person1 = dict({'x':1, "y":2, "z":3})
 # person2 = dict({'x':1, "y":2}, z=3)
@@ -361,6 +363,7 @@
 # def fn(**kwargs):
 #     for key, value in kwargs.items():
 #         print(f'{key} {value}')
+
 
 
 
@@ -453,6 +456,27 @@
 #     print((r[i]['Region']))
 
 #     print("-----------------------------")
+
+
+
+# ------------------------------------------------------------
+
+
+# Person = [
+#     {"_id":1, "indexID": "1001", "firstName": "Saleel", "lastName": "Bagde", "canVote": True, "canDrive": True}, 
+#     {"_id":2,"indexID": "1002", "firstName": "Vrushali", "lastName": "Bagde", "canVote": False, "canDrive": True}, 
+#     {"_id":3,"indexID": "1003", "firstName": "Sharmin", "lastName": "Bagde", "canVote": True, "canDrive": False}  
+# ]
+
+# def fn(d):
+#     return True if d["canVote"] == True else False
+
+# x = filter(fn, Person)
+# print(list(x))
+
+
+
+
 
 # ---------------------------------------------------
 
