@@ -433,9 +433,31 @@
 # with open ('emp.json', 'r') as fp:
 #     data = json.load(fp)
 
-
 # for i in range(int(input ('first')), len(data)):
 #     print(f'SrNo. [{i}] - {data[i]["ename"]}')
+
+
+
+
+# import json
+
+# with open("data.json","r") as fs:
+#     data = json.load(fs)
+#     print(data)
+
+# cnt = 1
+# for i in data:
+#     i.update({"indexID" : cnt})
+#     cnt+=1
+#     for key, value in i.items():
+#         print(f'{key} : {value}')
+#     print()
+#     print('-' *48)
+#     print()
+
+
+
+
 
 #---------------------------------------------------
 
