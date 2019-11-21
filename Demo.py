@@ -14,7 +14,7 @@
 # In Python any non-zero integer value is true; zero is false.
 
 
-# Comprehensions in Python
+# Comprehensions in Python - list --[] / set -- {} and dict -- {k:v} 
 
 
 # Packing and Unpacking Arguments in Python
@@ -22,7 +22,38 @@
 
 
 
-# List Comprehensions
+# List Comprehensions 
+# Syntax 
+#
+# new_list = [expression(i) for i in old_list if filter(i)]
+
+
+# Eg of List - []
+
+# names = ['saleel','amit','sharmin','vrushali','saleel','sharmin','ram','laxman','anoop','sachin','suraj','amol','pankaj','neel','deep','nitish','sharmin','ruhan','bandish','supriya','sangita','suraj','vrushali']
+
+# newNames = [n for n in names if str(n).startswith('s')]
+# print(newNames)
+
+
+# Eg of Set()
+# newNames = {n for n in names if str(n).startswith('s') and len(n) >=7}
+# print(newNames)
+
+
+
+# dict = {i : names.count(i) for i in names}
+# for i in dict:
+#     print(f'{i} : {dict[i]}')
+
+#------------------------------------------------------------------
+
+
+
+
+
+
+
 
 # string='saleel'
 # print(string[:4] if len(string) < 10 else string[0])
