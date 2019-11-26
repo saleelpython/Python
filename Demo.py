@@ -24,7 +24,8 @@
 
 # List Comprehensions 
 # Syntax 
-#
+
+
 # new_list = [expression(i) for i in old_list if filter(i)]
 
 
@@ -40,6 +41,10 @@
 # newNames = {n for n in names if str(n).startswith('s') and len(n) >=7}
 # print(newNames)
 
+
+# s = 'This is the test by saleel'
+# x = sum(set(s.count(i) for i in s if i in ['a','e','i','o','u']))
+# print(x)
 
 
 # dict = {i : names.count(i) for i in names}

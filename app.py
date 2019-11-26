@@ -10,11 +10,6 @@ person = [
     {"_id":7,"indexID": "1007", "firstName": "Ruhan", "lastName": "Bagde", "canVote": "False", "canDrive": "False"}
 ]
 
-def getPerson(l):
-    for i in l:
-        yield i
-            
-b =  getPerson(person)
 
 # while (x := input("Continue?")) == 'y' or 'Y':
 #     print("Good")
@@ -22,19 +17,8 @@ b =  getPerson(person)
 
 # while (y := int(input("Continue?"))) == 1 or 2:
 #     print("Good")
+# else:
+#     print('done')
 
 
-z = int(input("number ?"))
-
-if z:
-    print("Good")
-else:
-    print("bad")
-
-#    try:
-#        print(x)
-#     #    print(b.__next__())
-#    except StopIteration as ex:
-#        print("Done")
-#        break
 
