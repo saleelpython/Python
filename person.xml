@@ -1,0 +1,9 @@
+<root>
+    <employeeOne>
+        <_id> 1001 </_id>
+        <firstName> Saleel </firstName>
+        <lastName> Bagde </lastName>
+        <canVote> True </canVote>
+        <canDrive> True </canDrive>
+    </employeeOne>
+</root>

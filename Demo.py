@@ -46,6 +46,13 @@
 # for i in dict:
 #     print(f'{i} : {dict[i]}')
 
+
+
+# vowels = ['a', 'e', 'i', 'o', 'u']
+# s = "this is the test by saleel"
+# i = {i + " " + str(s.count(i)) for i in s if i in vowels}
+
+
 #------------------------------------------------------------------
 
 
@@ -349,7 +356,7 @@
 # print(f"----------------Key: {m}------------------")
 # print()
 # for key, value in ll.items():
-#     # print(f"Key->{key}  value->{value}")
+#     # print(f"key->{key}  value->{value}")
 #     if value == m:
 #         print(key)
 #         break
@@ -371,7 +378,6 @@
 #       print(f"{keys} {values}")
 
 # fn(firstName='Saleel', lastName='Bagde')
-
 
 
 # data = {"_id":"1001", "name":"saleel", "canVote":True, "canDrive":True}
