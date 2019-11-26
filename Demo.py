@@ -125,6 +125,7 @@
 
 #---------------------------------------------------------
 
+# countries = ["Indonesia", "Thailand", "Sri Lanka", "Comoros", "Saudi Arabia", "South Africa", "Djibouti", "France", "Malaysia", "Vietnam", "Maldives", "Oman", "Kuwait", "Eritrea", "Mozambique", "Australia", "Myanmar", "Brunei", "Mauritius", "Iran", "Bahrain", "Sudan", "Somalia", "New Zealand", "Philippines", "Cambodia", "Madagascar", "UAE", "Israel", "Kenya", "USA", "Japan", "Singapore", "Bangladesh", "Seychelles", "Qatar", "Egypt", "Tanzania", "UK", "South Korea", "Russia"]
 
 # fruits = ['blackberry', 'grapes', 'blueberry', 'fig', 'lemon', 'watermelon', 'apple', 'kiwi', 'lime', 'mango','blackberry']
 
