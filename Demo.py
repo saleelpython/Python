@@ -125,7 +125,7 @@
 
 #---------------------------------------------------------
 
-# countries = ["Indonesia", "Thailand", "Sri Lanka", "Comoros", "Saudi Arabia", "South Africa", "Djibouti", "France", "Malaysia", "Vietnam", "Maldives", "Oman", "Kuwait", "Eritrea", "Mozambique", "Australia", "Myanmar", "Brunei", "Mauritius", "Iran", "Bahrain", "Sudan", "Somalia", "New Zealand", "Philippines", "Cambodia", "Madagascar", "UAE", "Israel", "Kenya", "USA", "Japan", "Singapore", "Bangladesh", "Seychelles", "Qatar", "Egypt", "Tanzania", "UK", "South Korea", "Russia"]
+# countries = ["India", "Indonesia", "Thailand", "Sri Lanka", "Comoros", "Saudi Arabia", "South Africa", "Djibouti", "France", "Malaysia", "Vietnam", "Maldives", "Oman", "Kuwait", "Eritrea", "Mozambique", "Australia", "Myanmar", "Brunei", "Mauritius", "Iran", "Bahrain", "Sudan", "Somalia", "New Zealand", "Philippines", "Cambodia", "Madagascar", "UAE", "Israel", "Kenya", "USA", "Japan", "Singapore", "Bangladesh", "Seychelles", "Qatar", "Egypt", "Tanzania", "UK", "South Korea", "Russia", "Israel", "Tajikistan", "Jordan", "Lebanon", "Panama", "Jamaica", "Namibia", "Botswana", "Fiji", "Uruguay", "Kuwait", "Denmark", "Palestine", "Mongolia", "Kosovo", "Cyprus", "Bahamas", "Marshall Islands", "Greenland", "Iceland", "Greece", "Portugal", "Belgium", "Zambia", "Zimbabwe", "Netherlands", "Syria", "Argentina", "Tanzania", "Spain", "Ukraine", "Kenya", "Uganda", "Uzbekistan", "Afghanistan", "Madagascar", "Romania", "Kazakhstan"]
 
 # fruits = ['blackberry', 'grapes', 'blueberry', 'fig', 'lemon', 'watermelon', 'apple', 'kiwi', 'lime', 'mango','blackberry']
 
