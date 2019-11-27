@@ -62,7 +62,10 @@
 
 
 
-
+# def fn(_id, place, state, country, latitude, longitude):
+#     return {"_id":_id, "place":place, "state":state, "country":country, "latitude": latitude,"longitude":longitude}
+# x= fn(_id=1001, place='Pune', state="Maharashtra", country='India', latitude=23.234534322, longitude=13.234262266)
+# print(type(x))
 
 
 
