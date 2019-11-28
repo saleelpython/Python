@@ -62,10 +62,7 @@
 
 
 
-# def fn(_id, place, state, country, latitude, longitude):
-#     return {"_id":_id, "place":place, "state":state, "country":country, "latitude": latitude,"longitude":longitude}
-# x= fn(_id=1001, place='Pune', state="Maharashtra", country='India', latitude=23.234534322, longitude=13.234262266)
-# print(type(x))
+
 
 
 
@@ -867,3 +864,20 @@
 #     cursor.close()
 #     con.close()
 
+#------------------------------------------------------------
+#CSV
+
+#region CSV
+
+# Region,	Country, ItemType, SalesChannel, OrderPriority, OrderDate, OrderID, ShipDate, UnitsSold, UnitPrice, UnitCost, TotalRevenue', TotalCost, TotalProfit
+# l = list()
+# with open ("Sales.csv" ,'r') as fs:
+#     data = csv.reader(fs)
+  
+#     for i in data:
+#         l.append({"Region":i[0], "Country":i[1], "ItemType":i[2], "SalesChannel":i[3], "OrderPriority":i[4], "OrderDate":i[5], "OrderID":int(i[6]), "ShipDate":i[7], "UnitsSold": int(i[8]), "UnitPrice":float( i[9]), "UnitCost": float(i[10]), "TotalRevenue":float(i[11]), "TotalCost":float(i[12]), "TotalProfit": float(i[13])})
+
+# for i in range(len(l)):
+#     print(l[i])
+#     print('-' * 55)
+#endregion

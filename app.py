@@ -1,5 +1,7 @@
 import module2
+import csv
 
+#region Main 
 person = [
     {"_id":1, "indexID": "1001", "firstName": "Saleel", "lastName": "Bagde", "canVote": "True", "canDrive": "True"}, 
     {"_id":2,"indexID": "1002", "firstName": "Vrushali", "lastName": "Bagde", "canVote": "True", "canDrive": "False"}, 
@@ -10,27 +12,20 @@ person = [
     {"_id":7,"indexID": "1007", "firstName": "Ruhan", "lastName": "Bagde", "canVote": "False", "canDrive": "False"}
 ]
 
-
 countries = ["India", "Indonesia", "Thailand", "Sri Lanka", "Comoros", "Saudi Arabia", "South Africa", "Djibouti", "France", "Malaysia", "Vietnam", "Maldives", "Oman", "Kuwait", "Eritrea", "Mozambique", "Australia", "Myanmar", "Brunei", "Mauritius", "Iran", "Bahrain", "Sudan", "Somalia", "New Zealand", "Philippines", "Cambodia", "Madagascar", "UAE", "Israel", "Kenya", "USA", "Japan", "Singapore", "Bangladesh", "Seychelles", "Qatar", "Egypt", "Tanzania", "UK", "South Korea", "Russia", "Israel", "Tajikistan", "Jordan", "Lebanon", "Panama", "Jamaica", "Namibia", "Botswana", "Fiji", "Uruguay", "Kuwait", "Denmark", "Palestine", "Mongolia", "Kosovo", "Cyprus", "Bahamas", "Marshall Islands", "Greenland", "Iceland", "Greece", "Portugal", "Belgium", "Zambia", "Zimbabwe", "Netherlands", "Syria", "Argentina", "Tanzania", "Spain", "Ukraine", "Kenya", "Uganda", "Uzbekistan", "Afghanistan", "Madagascar", "Romania", "Kazakhstan"]
 
+def getData(l):
+    for i in l:
+        yield i
 
-# def getCountries(l):
-#     for i in l:
-#         yield (i)
+x = getData(countries)
 
-# c = getCountries(countries)
+print(x.__next__())
+print(x.__next__())
+print(x.__next__())
+print(x.__next__())
+print(x.__next__())
 
-# print(c.__next__())
-# print(c.__next__())
-# print(c.__next__())
-
-
-def fn(l):
-    if l == 'India1':
-        return True
-    return False
+#endregion
 
 
-c = list(filter(fn, countries))
-
-print(c)
