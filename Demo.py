@@ -865,13 +865,12 @@
 #     con.close()
 
 #------------------------------------------------------------
-#CSV
 
 #region CSV
 
-# Region,	Country, ItemType, SalesChannel, OrderPriority, OrderDate, OrderID, ShipDate, UnitsSold, UnitPrice, UnitCost, TotalRevenue', TotalCost, TotalProfit
+#Region,	Country, ItemType, SalesChannel, OrderPriority, OrderDate, OrderID, ShipDate, UnitsSold, UnitPrice, UnitCost, TotalRevenue', TotalCost, TotalProfit
 # l = list()
-# with open ("Sales.csv" ,'r') as fs:
+# with open ("SalesRecords2.csv" ,'r') as fs:
 #     data = csv.reader(fs)
   
 #     for i in data:
@@ -881,3 +880,59 @@
 #     print(l[i])
 #     print('-' * 55)
 #endregion
+
+
+
+#region Pandas 
+#names=["Region","Country","ItemType","SalesChannel","OrderPriority","OrderDate","OrderID","ShipDate","UnitsSold","UnitPrice","UnitCost","TotalRevenue","TotalCost","TotalProfit"], header=None
+
+# df = pandas.read_csv("weather.csv", names=["season","temperature","humidity","wind_speed","wind_gust","dailyRain","monthlyRain","yearlyRain","uv_0_11","date"], header=None )
+
+# # pandas.set_option('display.max_rows', None)
+# pandas.set_option('display.max_columns', None)
+# pandas.set_option('display.width', None)
+
+# print(df[["season","temperature","humidity"]])
+# # print(df)
+
+# df = pandas.DataFrame(person)
+
+# print(df[['indexID', 'firstName', 'canVote']])
+
+#endregion
+
+
+
+
+#-----------------------------------------------------------------------------------
+
+# pandas.set_option("display.max_rows", None)
+# pandas.set_option("display.max_columns", None)
+# pandas.set_option("display.width", None)
+
+
+
+# # with open("weather.csv" , 'r') as fs:
+# df = pandas.read_csv("movie.csv", names=["color", "director","critic","duration","director_facebook","actor_3_facebook","actor_2_name",	"actor_1_facebook_likes","gross","genres","actor_1_name","movie_title","num_voted_users","cast_total_facebook_likes","actor_3_name","facenumber_in_poster","plot_keywords",	"movie_imdb_link","num_user_for_reviews","language","country","content_rating","budget","title_year","actor_2_facebook_likes","imdb_score","aspect_ratio","movie_facebook_likes"], header=None )
+
+# # df.fillna('Not Available', inplace=True)
+# df.fillna(value={"color": "Color", "critic": 450, "director":"Not Available", "director_facebook":"Not Available"}, inplace=True)
+# # print(df.columns)
+
+# print()
+# print()
+# print(df["duration"].max())
+# print(df["duration"].min())
+# print(df[["color", "director","movie_title","critic","duration","director_facebook","actor_3_facebook","actor_2_name"]][df["duration"] == 150])
+# print(df[["color", "director","movie_title","critic","duration","director_facebook","actor_3_facebook","actor_2_name"]][df["duration"] >= 450])
+# print(df[["color", "director","movie_title","critic","duration","director_facebook","actor_3_facebook","actor_2_name"]][df["duration"] == df["duration"].max()])
+# print(df[["color", "director","movie_title","critic","duration","director_facebook","actor_3_facebook","actor_2_name"]][df["duration"] == df["duration"].min()])
+
+
+
+# print()
+# print()
+
+# print(df.director)
+
+
