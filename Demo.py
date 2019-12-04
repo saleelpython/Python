@@ -919,16 +919,29 @@
 # df.fillna(value={"color": "Color", "critic": 450, "director":"Not Available", "director_facebook":"Not Available"}, inplace=True)
 # # print(df.columns)
 
-# print()
-# print()
 # print(df["duration"].max())
+
 # print(df["duration"].min())
+
+# df.sort_values("duration", inplace=True)
+
 # print(df[["color", "director","movie_title","critic","duration","director_facebook","actor_3_facebook","actor_2_name"]][df["duration"] == 150])
+
 # print(df[["color", "director","movie_title","critic","duration","director_facebook","actor_3_facebook","actor_2_name"]][df["duration"] >= 450])
+
 # print(df[["color", "director","movie_title","critic","duration","director_facebook","actor_3_facebook","actor_2_name"]][df["duration"] == df["duration"].max()])
+
 # print(df[["color", "director","movie_title","critic","duration","director_facebook","actor_3_facebook","actor_2_name"]][df["duration"] == df["duration"].min()])
+
 # print(df[["movieColorType", "movie_title", "language", "country", "director", "critic", "duration"]].to_string(index=False))
 
+# print(df[["movieColorType" , "director", "critic", "duration", "movie_title", "actor_2_name","plot_keywords","imdb_score"]][(df['duration'] == 100) & (df["movieColorType"] == 'Black and White')])
+
+# print(df[["movieColorType","director","duration"]] [df["duration"] == 100].count())
+
+# print(df[["movieColorType" , "director", "critic", "duration", "movie_title", "actor_2_name","plot_keywords","imdb_score","content_rating"]] [((df["content_rating"] =='PG-13') | (df["content_rating"] == 'U/A')) & (df["duration"] == 10_0)])
+
+# print(df[["movieColorType" , "director", "critic", "duration", "movie_title", "actor_2_name","plot_keywords","imdb_score","content_rating"]][df["content_rating"].isin(["PG-13", "U/A"])])
 
 # print()
 # print()

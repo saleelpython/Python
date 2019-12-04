@@ -1,7 +1,7 @@
 import csv
 import json
 import pandas
-import os
+import numpy 
 
 
 
@@ -10,15 +10,26 @@ df = pandas.read_csv("movie.csv", names = ["movieColorType", "director", "critic
 
 pandas.set_option("display.max_rows", None)
 pandas.set_option("display.max_columns", None)
-# pandas.set_option("display.max_colwidth", 60)
+pandas.set_option("display.max_colwidth", 20)
 pandas.set_option("display.width", None)
 
-# x = df["language"].unique()
+df.fillna(value={"duration" : 0, "director":"Not Available","genres":"Not Available"},inplace=True)
 
-# for i in x:
-#     print(i)
 
-print(df[["movieColorType", "movie_title", "language", "country", "director", "critic", "duration"]])
+# print(df[["movieColorType" , "director", "critic", "duration", "movie_title", "actor_2_name","plot_keywords","imdb_score"]])
+
+# print(df[["movieColorType" , "director", "critic", "duration", "movie_title", "actor_2_name","plot_keywords","imdb_score"]][(df['duration'] == 100) & (df["movieColorType"] == 'Black and White')])
+
+# print(df[["movieColorType","director","duration"]] [df["duration"] == 100].count()) #.to_string(index=False))
+
+# print(df[["movieColorType" , "director", "critic", "duration", "movie_title", "actor_2_name","plot_keywords","imdb_score","content_rating"]] [((df["content_rating"] =='PG-13') | (df["content_rating"] == 'U/A')) & (df["duration"] == 10_0)])
+
+
+# print(df[["movieColorType" , "director", "critic", "duration", "movie_title", "actor_2_name","plot_keywords","imdb_score","content_rating"]][df["content_rating"].isin(["PG-13", "U/A"])])
+
+print(df[["movieColorType" , "director", "critic", "duration", "movie_title", "genres", "plot_keywords","imdb_score","content_rating"]])
+
+
 #endregion
 
 
