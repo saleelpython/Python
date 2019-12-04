@@ -927,7 +927,7 @@
 # print(df[["color", "director","movie_title","critic","duration","director_facebook","actor_3_facebook","actor_2_name"]][df["duration"] >= 450])
 # print(df[["color", "director","movie_title","critic","duration","director_facebook","actor_3_facebook","actor_2_name"]][df["duration"] == df["duration"].max()])
 # print(df[["color", "director","movie_title","critic","duration","director_facebook","actor_3_facebook","actor_2_name"]][df["duration"] == df["duration"].min()])
-
+# print(df[["movieColorType", "movie_title", "language", "country", "director", "critic", "duration"]].to_string(index=False))
 
 
 # print()
