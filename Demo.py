@@ -882,13 +882,15 @@
 #endregion
 
 
+#------------------------------------------------------------
+
 
 #region Pandas 
 #names=["Region","Country","ItemType","SalesChannel","OrderPriority","OrderDate","OrderID","ShipDate","UnitsSold","UnitPrice","UnitCost","TotalRevenue","TotalCost","TotalProfit"], header=None
 
 # df = pandas.read_csv("weather.csv", names=["season","temperature","humidity","wind_speed","wind_gust","dailyRain","monthlyRain","yearlyRain","uv_0_11","date"], header=None )
 
-# # pandas.set_option('display.max_rows', None)
+# pandas.set_option('display.max_rows', None)
 # pandas.set_option('display.max_columns', None)
 # pandas.set_option('display.width', None)
 
@@ -898,8 +900,6 @@
 # df = pandas.DataFrame(person)
 
 # print(df[['indexID', 'firstName', 'canVote']])
-
-#endregion
 
 
 
@@ -943,9 +943,45 @@
 
 # print(df[["movieColorType" , "director", "critic", "duration", "movie_title", "actor_2_name","plot_keywords","imdb_score","content_rating"]][df["content_rating"].isin(["PG-13", "U/A"])])
 
+
+# print(df[["movieColorType","movie_title", "genres", "director", "critic", "duration", "language","country","content_rating"]] [(df["duration"] ==100) & (df["language"] == 'Hindi') & (df["genres"].str.contains("Drama"))])
+
+
 # print()
 # print()
 
 # print(df.director)
 
 
+#endregion
+
+#-------------------------------------------------------------------------------------------
+
+
+# code_dict = {'..-': 'U', '--..--': ', ', '....-': '4', '.....': '5',
+# '-...': 'B', '-..-': 'X', '.-.': 'R', '--.-': 'Q',
+# '--..': 'Z', '.--': 'W', '-..-.': '/', '..---': '2',
+# '.-': 'A', '..': 'I', '-.-.': 'C', '..-.': 'F',
+# '---': 'O', '-.--': 'Y', '-': 'T', '.': 'E',
+# '.-..': 'L', '...': 'S', '-.--.-': ')',
+# '..--..': '?', '.----': '1', '-----': '0',
+# '-.-': 'K', '-..': 'D', '----.': '9',
+# '-....': '6', '.---': 'J', '.--.': 'P',
+# '.-.-.-': '.', '-.--.': '(', '--': 'M',
+# '-.': 'N', '....': 'H', '---..': '8',
+# '...-': 'V', '--...': '7',
+# '--.': 'G', '...--': '3', '-....-': '-'}
+
+# string = "SALEEL"
+
+# # for key, value in code_dict.items():
+# #     print (f'{key}   {value}')
+
+# x = ""
+
+# for i in string:
+#     for key, value in code_dict.items():
+#         if i == value :
+#             x = x  + key + " "
+
+# print(x)
