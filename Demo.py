@@ -985,3 +985,48 @@
 #             x = x  + key + " "
 
 # print(x)
+
+
+
+#--------------------------------------------------------------------------------------------
+
+import csv
+import pdb
+
+l = []
+
+def fn(data):
+    for i in data:
+        yield i
+
+with open("m.csv", "r") as fs:
+    data = csv.reader(fs)
+    for i in data:
+        dict ={}
+        dict["_id"] = i[0]
+        dict["release"] = i[1]
+        dict["color"] = i[2]
+        dict["movie_title"] = i[13]
+        dict["content_rating"] = i[23]
+        dict["director"] = i[3]
+        dict["critic"] = i[4]
+        dict["duration"] = i[5]
+        dict["genres"] = i[11]
+        dict["language"] = i[21]
+        dict["country"] = i[22]
+        
+
+        l.append(dict)
+    x = filter(fn, l)
+    
+    while (b := input("Do you want to continue? (Y)es/(N)o:  ").upper() == "Y") :
+        try:
+            print()
+            print(x.__next__())
+            print()
+            print('-'* 150)
+            print()
+        except StopIteration as ex:
+            print("No more data!")
+            break
+
