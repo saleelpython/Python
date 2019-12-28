@@ -131,7 +131,24 @@
 
 
 #---------------------------------------------------------
-
+book = [{"isbn":"HS/200-29SK","title":"mongoDB","rate": 1225,"qty":4},
+{"isbn":"HS/200-291SK","title":"Oracle","rate": 1575,"qty":7},
+{"isbn":"HS/201-292SK","title":"Python","rate": 2055,"qty":8},
+{"isbn":"HS/202-293SK","title":"JavaScript","rate": 725,"qty":3},
+{"isbn":"HS/203-294SK","title":"C++","rate": 1350,"qty":5},
+{"isbn":"HS/204-295SK","title":"Lotus","rate": 1000,"qty":6},
+{"isbn":"HS/205-296SK","title":"AutoCAD","rate": 2000,"qty":2},
+{"isbn":"HS/206-297SK","title":"Java","rate": 1500,"qty":3},
+{"isbn":"HS/207-298SK","title":".NET","rate": 1250,"qty":1},
+{"isbn":"HS/208-299SK","title":"NodeJS","rate": 2345,"qty":1},
+{"isbn":"HS/209-2918SK","title":"Angular","rate": 1750,"qty":2},
+{"isbn":"HS/2010-2928SK","title":"Pandas","rate": 1085,"qty":4},
+{"isbn":"HS/2011-2938SK","title":"numpy","rate": 1025,"qty":2},
+{"isbn":"HS/2012-2948SK","title":"String","rate": 1350,"qty":3},
+{"isbn":"HS/2013-2958SK","title":"ASP","rate": 2150,"qty":1},
+{"isbn":"HS/2014-2968SK","title":"JSP","rate": 750,"qty":2},
+{"isbn":"HS/2015-2978SK","title":"Express","rate": 800,"qty":3}
+]
 # countries = ["India", "Indonesia", "Thailand", "Sri Lanka", "Comoros", "Saudi Arabia", "South Africa", "Djibouti", "France", "Malaysia", "Vietnam", "Maldives", "Oman", "Kuwait", "Eritrea", "Mozambique", "Australia", "Myanmar", "Brunei", "Mauritius", "Iran", "Bahrain", "Sudan", "Somalia", "New Zealand", "Philippines", "Cambodia", "Madagascar", "UAE", "Israel", "Kenya", "USA", "Japan", "Singapore", "Bangladesh", "Seychelles", "Qatar", "Egypt", "Tanzania", "UK", "South Korea", "Russia", "Israel", "Tajikistan", "Jordan", "Lebanon", "Panama", "Jamaica", "Namibia", "Botswana", "Fiji", "Uruguay", "Kuwait", "Denmark", "Palestine", "Mongolia", "Kosovo", "Cyprus", "Bahamas", "Marshall Islands", "Greenland", "Iceland", "Greece", "Portugal", "Belgium", "Zambia", "Zimbabwe", "Netherlands", "Syria", "Argentina", "Tanzania", "Spain", "Ukraine", "Kenya", "Uganda", "Uzbekistan", "Afghanistan", "Madagascar", "Romania", "Kazakhstan"]
 
 # fruits = ['blackberry', 'grapes', 'blueberry', 'fig', 'lemon', 'watermelon', 'apple', 'kiwi', 'lime', 'mango','blackberry']
