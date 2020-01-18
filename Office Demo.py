@@ -87,6 +87,16 @@
 #     for key, value in c[i].items():
 #         print(f'{key} {value}')
 
+
+
+
+# fruits = [(1, "apple"), (3, 'orange'), (4, "grapes"), (5, "mango"), (2, "kiwi")]
+# a = [3,2,1,5,4]
+# x = [tuple for i in a for tuple in fruits if tuple[0] == i]
+# print(x)
+
+
+
 #---------------------------------------------------------
 
 # Generator 
@@ -208,6 +218,21 @@
 #       b+=1
 
 # print(l3)
+
+
+
+# poem = "Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky. Twinkle, twinkle, little star How I wonder what you are!"
+
+# l = list()
+# for i in poem:
+    # x = poem.count(i), [ii for ii in poem if ii == i]
+    # if x not in l:
+        # l.append(x)
+
+# for key, value in enumerate(l, start=1):
+    # print(f"{value}")
+
+
 
 
 
@@ -538,8 +563,6 @@
 
 
 
-
-
 # ---------------------------------------------------
 
 # import json
@@ -564,6 +587,25 @@
 #     for keys, values in p[i].items():
 #         print(f"{keys} {values}")
 #     print("----------------------------")
+
+
+
+# def fn(data):
+  
+#     for i in data:
+#         yield i
+
+# with open("emp.json", "r") as fs:
+#     customer = json.load(fs)
+#     data = fn(customer)
+
+#     while (x := True if ord(input("Do you want to continue ")[0]) not in [48, 70] else False) == True:
+#         try:
+#             print(data.__next__())
+#         except StopIteration as ex:
+#             print("End of data file!")
+
+
 
 
 # print(help('for'))
