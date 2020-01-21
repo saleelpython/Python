@@ -1,3 +1,5 @@
+#https://github.com/KeithGalli/Pandas-Data-Science-Tasks
+
 # True and non-empty things are true. Number 1 is true.
 # False, None, zero, and empty things are false.
 
@@ -931,7 +933,10 @@
 
 # pandas.set_option('display.max_rows', None)
 # pandas.set_option('display.max_columns', None)
+# pandas.set_option('display.max_colwidth', 60)
 # pandas.set_option('display.width', None)
+# pandas.set_option("display.colheader_justify","left")
+
 
 # print(df[["season","temperature","humidity"]])
 # # print(df)
@@ -949,9 +954,10 @@
 # df.loc[df['column name'] condition, 'new column name'] = 'value if condition is met'
 
 
-# pandas.set_option("display.max_rows", None)
-# pandas.set_option("display.max_columns", None)
-# pandas.set_option("display.width", None)
+# pandas.set_option('display.max_rows', None)
+# pandas.set_option('display.max_columns', None)
+# pandas.set_option('display.max_colwidth',20)
+# pandas.set_option('display.width', None)
 
 
 # df = pandas.read_csv("police.csv",names=["stop_date", "stop_time","county_name", "driver_gender","driver_age_raw", "driver_age", "driver_race", "violation_raw", "violation", "search_conducted", "search_type", "stop_outcome", "is_arrested", "stop_duration", "drugs_related_stop"], header=None, nrows=1175)
@@ -959,8 +965,9 @@
 # with open("weather.csv" , 'r') as fs:
     # df = pandas.read_csv("weather.csv", names=["season","temperature","humidity","wind_speed","wind_gust","dailyRain","monthlyRain","yearlyRain","uv_0_11","date"], header=None, nrows = None)
 
-# df = pandas.read_csv("movie.csv", names=["_id", "relese", "color", "director","critic","duration","director_facebook","actor_3_facebook","actor_2_name",	"actor_1_facebook_likes","gross","genres","actor_1_name","movie_title","num_voted_users","cast_total_facebook_likes","actor_3_name","facenumber_in_poster","plot_keywords",	"movie_imdb_link","num_user_for_reviews","language","country","content_rating","budget","title_year","actor_2_facebook_likes","imdb_score","aspect_ratio","movie_facebook_likes"], header=None )
+# df = pandas.read_csv("movie.csv", names=["_id", "relese", "color", "director","critic","duration","director_facebook","actor_3_facebook","actor_2_name",	"actor_1_facebook_likes","gross","genres","actor_1_name","movie_title","num_voted_users","cast_total_facebook_likes","actor_3_name","facenumber_in_poster","plot_keywords",	"movie_imdb_link","num_user_for_reviews","language","country","content_rating","budget","title_year","actor_2_facebook_likes","imdb_score","aspect_ratio","movie_facebook_likes","production houses"], header=None )
 
+# df = pandas.read_csv("all_data.csv", names=["Order ID", "Product", "Quantity Ordered", "Price Each" , "Order Date" , "Purchase Address"], header=None)
 
 
 # # df.fillna('Not Available', inplace=True)
@@ -999,6 +1006,9 @@
 # df.insert(1,"country", "IN")
 
 # df["cards"] = "Master"
+# df.index= ["Index - " + str(i) for i in range(df["_id"].count())]
+
+# print(df.iloc[0])
 
 
 # If condition in Pandas
@@ -1149,6 +1159,13 @@
 # {"indexID":127,"empid":2092,"ename":"Sara","address": {"building": "7036", "location": [-78.15299819456999, 40.5568756], "street": "Adams Row", "zipcode": "15310"},"isActive": False, "gender": "female", "canVote": False, "canDrive":False, "favouriteColor": ["Cyan"], "favouriteFruit": ["Grapes"], "aadhar" :"fkR78JzIAz","job":"Designer","mgr":2007,"hiredate":{"$date":"1981-09-11T00:00:0000Z"}, "sal":4500,"comm":"","deptno":40},
 # {"indexID":128,"empid":2093,"ename":"Sara","address": {"building": "7036", "location": [-72.15299456999, 46.5568756], "street": "Supreme Court", "zipcode": "15372"},"isActive": True, "gender": "female", "canVote": True, "canDrive":True, "favouriteColor": ["Cyan"], "favouriteFruit": ["kiwi"], "aadhar" :"fkR78JzIAz","job":"Designer","mgr":2007,"hiredate":{"$date":"1981-09-17T00:00:0000Z"}, "sal":4500,"comm":5000,"deptno":30}
 # ]
+# df = pandas.DataFrame(emp, columns=["indexID","empid","ename","address"])
+
+# for i in df["address"]:
+#     for key, value in i.items():
+#         if key == "location":
+#             print(f"{key} {value}")
+
 
 #endregion EMP
 
