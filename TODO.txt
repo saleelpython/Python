@@ -14,10 +14,17 @@ df = pandas.read_csv("movie.csv",
                             "num_user_for_reviews", "language", "country", "content_rating", "budget", "title_year",
                             "actor_2_facebook_likes", "imdb_score", "aspect_ratio", "movie_facebook_likes",
                             "production houses","week 1","week 2","week 3","week 4","isActive"], header=None)
----------------------------------
 
----------------------------------
 
+df = pandas.read_csv("bengaluru_house_prices.csv",
+                     names=["area_type", "availability", "location", "size", "society", "total_sqft", "bath", "balcony",
+                            "price"], header=None)
+---------------------------------
+df["x"] = df["isActive"].map({0:False, 1:True})
+---------------------------------
+print(df.applymap(lambda x: str(x) + str("_XXX")))
+---------------------------------
+df1 = df.drop(columns=["area_type", "availability"])
 ---------------------------------
 
 ---------------------------------
