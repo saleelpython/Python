@@ -1,3 +1,4 @@
+_id,relese,color,director,critic,duration,director_facebook,actor_3_facebook,actor_2_name,actor_1_facebook_likes,gross,genres,actor_1_name,movie_title,num_voted_users,cast_total_facebook_likes,actor_3_name,facenumber_in_poster,plot_keywords,movie_imdb_link,num_user_for_reviews,language,country,content_rating,budget,title_year,actor_2_facebook_likes,imdb_score,aspect_ratio,movie_facebook_likes,production houses,Week1,week2,week3,week4,isActive,Music
 1,13-06-1998,,James Cameron,723,178,0,855,Joel David Moore,1000,760505847,Action|Adventure|Fantasy|Sci-Fi,CCH Pounder,AvatarÂ ,886204,4834,Wes Studi,0,avatar|future|marine|native|paraplegic,http://www.imdb.com/title/tt0499549/?ref_=fn_tt_tt_1,3054,English,USA,PG-13,237000001,1998,936,7.9,1.120835,33000,The Weinstein Company,28.103,67.888,37.319,48.732,1,
 2,14-11-1968,Color,Gore Verbinski,302,169,563,1000,Orlando Bloom,40000,309404152,Action|Adventure|Fantasy,Johnny Depp,Pirates of the Caribbean: At World's EndÂ ,471220,48350,Jack Davenport,0,goddess|marriage ceremony|marriage proposal|pirate|singapore,http://www.imdb.com/title/tt0449088/?ref_=fn_tt_tt_1,1238,English,USA,PG-13,300000000,1968,5000,7.1,2.370591809,0,The Weinstein Company,0.323,4.543,69.805,2.022,0,
 3,01-11-1969,Color,Sam Mendes,602,148,0,161,Rory Kinnear,11000,200074175,Action|Adventure|Thriller,Christoph Waltz,SpectreÂ ,275868,11700,Stephanie Sigman,1,bomb|espionage|sequel|spy|terrorist,http://www.imdb.com/title/tt2379713/?ref_=fn_tt_tt_1,994,English,UK,PG-13,245000000,1969,393,6.8,2.022457101,85000,Independent,29.811,97.568,12.883,0.502,0,
@@ -8073,7 +8074,7 @@
 8073,26-03-1962,Color,Kevin Lima,302,169,450,110,Glenn Close,,,,Ioan Gruffudd,102 Dalmatians,,,Alice Evans,,,,,,,,,1962,,,,,Walt Disney Productions,,,,,,Tom Boyd
 8074,06-02-1963,Color,Richard O. Fleischer,602,148,657,261,Richard Crenna,,,,Ben Cross,20000 Leagues Under the Sea,,,Julie Cox,,,,,,,,,1963,,,,,Walt Disney Productions,,,,,,Al Hoffman
 8075,11-05-1964,Color,John Alan Lasseter,813,164,699,239,"Dave Foley, Phyllis Diller",,,,"Kevin Spacey, Hayden Panettiere",A Bug's Life,,,Julia Louis-Dreyfus,,,,,,,,,1964,,,,,Walt Disney Productions,,,,,,Randy Newman
-8076,07-04-1967,Color,Mikael Salomonï¿½,,,178,169,Reese Witherspoon,,,,Ethan Embry,A Far Off Place,,,Patricia Kalember,,,,,,,,,1967,,,,,Walt Disney Productions,,,,,,James Horner
+8076,07-04-1967,Color,Mikael Salomon ,,,178,169,Reese Witherspoon,,,,Ethan Embry,A Far Off Place,,,Patricia Kalember,,,,,,,,,1967,,,,,Walt Disney Productions,,,,,,James Horner
 8077,03-06-1967,Color,Kevin Lima,462,132,1296,237,Bill Farmer,,,,Jason Marsden,A Goofy Movie,,,Kellie Martin,,,,,,,,,1967,,,,,Walt Disney Productions,,,,,,Carter Burwell
 8078,28-10-1967,Color,Michael Bernard Gottlieb,392,156,608,201,Thomas Ian Nicholas,,,,Joss Ackland,A Kid in King Arthur's Court,,,Kate Winslet,,,,,,,,,1967,,,,,Walt Disney Productions,,,,,,J.A.C. Redford
 8079,20-07-1968,Color,Jack Spiers,324,100,326,177,Jack Speirs,,,,Mayf Nutter,A Tale of Two Critters,,,,,,,,,,,,1968,,,,,Walt Disney Productions,,,,,,Buddy Baker
@@ -8114,7 +8115,7 @@
 8114,29-04-2013,Color,Jean-Paul Rappeneau,424,140,687,217,,,,,,Bon Voyage!,,,,,,,,,,,,2013,,,,,Walt Disney Productions,,,,,,
 8115,13-09-2018,Color,Lu Chuan,654,123,578,292,,,,,,Born in China,,,,,,,,,,,,2018,,,,,Walt Disney Productions,,,,,,
 8116,08-07-2019,Color,"Brenda Chapman, Mark Andrews",539,149,1192,173,,,,,,Brave,,,,,,,,,,,,2019,,,,,Walt Disney Productions,,,,,,
-8117,16-09-2019,Color,Gï¿½bor Csupï¿½,590,132,1324,167,,,,,,Bridge to Terabithia,,,,,,,,,,,,2019,,,,,Walt Disney Productions,,,,,,
+8117,16-09-2019,Color,Gábor Csupó,590,132,1324,167,,,,,,Bridge to Terabithia,,,,,,,,,,,,2019,,,,,Walt Disney Productions,,,,,,
 8118,04-10-2019,Eastman,"Robert Walker, Aaron Blaise",338,114,955,323,,,,,,Brother Bear,,,,,,,,,,,,2019,,,,,Walt Disney Productions,,,,,,
 8119,24-10-1962,Color,Norman Tokar,490,143,251,262,,,,,,Candleshoe,,,,,,,,,,,,1962,,,,,Walt Disney Productions,,,,,,
 8120,25-02-1970,Color,John Alan Lasseter,306,116,1276,129,,,,,,Cars,,,,,,,,,,,,1970,,,,,Walt Disney Productions,,,,,,
@@ -8156,7 +8157,7 @@
 8156,22-03-1997,Color,"John Hough, Andy Fickman, Peter Rader, Robert Day",384,102,898,140,,,,,,Escape to Witch Mountain,,,,,,,,,,,,1997,,,,,Walt Disney Productions,,,,,,
 8157,18-02-2000,Color,Ben Wallis,377,101,496,127,,,,,,Expedition China,,,,,,,,,,,,2000,,,,,Walt Disney Productions,,,,,,
 8158,24-05-2001,Color,"Wilfred Jackson, Hamilton Luske, James Algar",188,100,421,309,,,,,,Fantasia,,,,,,,,,,,,2001,,,,,Walt Disney Productions,,,,,,
-8159,18-01-2006,Color,"Eric Goldberg, James Algar, Don Hahn, Gaï¿½tan Brizzi",286,120,305,124,,,,,,Fantasia 2000,,,,,,,,,,,,2006,,,,,Walt Disney Productions,,,,,,
+8159,18-01-2006,Color,"Eric Goldberg, James Algar, Don Hahn, Gaëtan Brizzi",286,120,305,124,,,,,,Fantasia 2000,,,,,,,,,,,,2006,,,,,Walt Disney Productions,,,,,,
 8160,13-08-2008,Color,Andrew Stanton,288,98,1314,174,,,,,,Finding Dory,,,,,,,,,,,,2008,,,,,Walt Disney Productions,,,,,,
 8161,30-01-2012,Color,Andrew Stanton,280,109,692,172,,,,,,Finding Nemo,,,,,,,,,,,,2012,,,,,Walt Disney Productions,,,,,,
 8162,28-12-2012,Color,David Mickey Evans,653,121,262,149,,,,,,First Kid,,,,,,,,,,,,2012,,,,,Walt Disney Productions,,,,,,
@@ -8329,7 +8330,7 @@
 8329,21-08-1998,Eastman,Kenneth Cooper,327,127,281,167,Dorothy McGuire,,,,John Mills,Swiss Family Robinson,,,James MacArthur,,,,,,,,,1998,,,,,Walt Disney Productions,,,,,,William Alwyn
 8330,03-07-2000,Color,Jeremiah S. Chechik,125,105,713,300,Oliver Platt,,,,Patrick Swayze,Tall Tale,,,Catherine O'Hara,,,,,,,,,2000,,,,,Walt Disney Productions,,,,,,Randy Edelman
 8331,22-08-2002,Color,"Byron Howard, Nathan Greno",79,121,870,236,Zachary Levi,,,,Mandy Moore,Tangled,,,June Christopher,,,,,,,,,2002,,,,,Walt Disney Productions,,,,,,Alan Menken
-8332,14-05-2003,Color,"Chris Buck, Kevin Lima",326,114,793,171,Rory J. Saper,,,,Alexander Skarsgï¿½rd,Tarzan,,,Margot Robbie,,,,,,,,,2003,,,,,Walt Disney Productions,,,,,,Rupert Gregson-Williams
+8332,14-05-2003,Color,"Chris Buck, Kevin Lima",326,114,793,171,Rory J. Saper,,,,Alexander Skarsgård,Tarzan,,,Margot Robbie,,,,,,,,,2003,,,,,Walt Disney Productions,,,,,,Rupert Gregson-Williams
 8333,04-06-2013,Color,Timothy Berglund,354,129,824,165,Doris Day,,,,Clark Gable,Teacher's Pet,,,Gig Young,,,,,,,,,2013,,,,,Walt Disney Productions,,,,,,Roy Webb
 8334,16-09-2015,Color,William Washington Beaudine,297,171,551,224,John Beal,,,,Brian Keith,Ten Who Dared,,,James Drury,,,,,,,,,2015,,,,,Walt Disney Productions,,,,,,Oliver Wallace
 8335,28-09-2015,Color,Tim Hunter,188,120,1123,222,Jim Metzler,,,,Matt Dillon,Tex,,,Meg Tilly,,,,,,,,,2015,,,,,Walt Disney Productions,,,,,,Pino Donaggio
@@ -8400,13 +8401,13 @@
 8400,25-08-1992,Color,,308,135,1012,200,,,,,,The Mighty Ducks,,,,,,,,,,,,1992,,,,,Walt Disney Productions,,,,,,
 8401,15-03-1993,Color,,301,100,809,140,,,,,,The Million Dollar Duck,,,,,,,,,,,,1993,,,,,Walt Disney Productions,,,,,,
 8402,11-11-1995,Color,,328,192,1269,211,,,,,,The Misadventures of Merlin Jones,,,,,,,,,,,,1995,,,,,Walt Disney Productions,,,,,,
-8403,04-07-1997,Color,Robert Edward Stevensonï¿½,294,172,734,107,Annette Funicello,,,,Tommy Kirk,The Monkey's Uncle,,,Leon Ames,,,,,,,,,1997,,,,,Walt Disney Productions,,,,,,Buddy Baker
+8403,04-07-1997,Color,Robert Edward Stevenson ,294,172,734,107,Annette Funicello,,,,Tommy Kirk,The Monkey's Uncle,,,Leon Ames,,,,,,,,,1997,,,,,Walt Disney Productions,,,,,,Buddy Baker
 8404,05-08-1997,Color,James D. Neilson,175,102,664,301,Eli Wallach,,,,Hayley Mills,The Moon-Spinners,,,Peter McEnery,,,,,,,,,1997,,,,,Walt Disney Productions,,,,,,Peter McEnery
 8405,07-02-1998,Color,Brian Henson,199,100,228,122,Dave Goelz,,,,Michael Caine,The Muppet Christmas Carol,,,Jessica Fox,,,,,,,,,1998,,,,,Walt Disney Productions,,,,,,Miles Goodman
 8406,10-06-2010,Color,James Bobin,355,119,1208,322,Amy Adams,,,,Jason Segel,The Muppets,,,Rashida Jones,,,,,,,,,2010,,,,,Walt Disney Productions,,,,,,Christophe Beck
-8407,30-06-2012,Color,Charles Henry Selick,198,92,816,221,Ken Page,,,,"Danny Elfman,ï¿½Catherine O'Hara",The Nightmare Before Christmas 3D TNBC,,,Paul Reubens,,,,,,,,,2012,,,,,Walt Disney Productions,,,,,,Danny Elfman
+8407,30-06-2012,Color,Charles Henry Selick,198,92,816,221,Ken Page,,,,"Danny Elfman, Catherine O'Hara",The Nightmare Before Christmas 3D TNBC,,,Paul Reubens,,,,,,,,,2012,,,,,Walt Disney Productions,,,,,,Danny Elfman
 8408,11-09-2013,Color,Bruce Bilson,529,105,370,201,Barbara Harris,,,,Edward Herrmann,The North Avenue Irregulars,,,Susan Clark,,,,,,,,,2013,,,,,Walt Disney Productions,,,,,,Robert F. Brunner
-8409,14-12-2013,Eastman,"Lasse Hallstrï¿½m, Joe Johnston",198,107,449,229,Tom Sweet,,,,Mackenzie Foy,The Nutcracker and the Four Realms,,,Meera Syal,,,,,,,,,2013,,,,,Walt Disney Productions,,,,,,James Newton Howard
+8409,14-12-2013,Eastman,"Lasse Hallström, Joe Johnston",198,107,449,229,Tom Sweet,,,,Mackenzie Foy,The Nutcracker and the Four Realms,,,Meera Syal,,,,,,,,,2013,,,,,Walt Disney Productions,,,,,,James Newton Howard
 8410,14-10-2017,Eastman,Peter Simpson Hedges,412,101,1289,151,Joel Edgerton,,,,Jennifer Garner,The Odd Life of Timothy Green,,,CJ Adams,,,,,,,,,2017,,,,,Walt Disney Productions,,,,,,Geoff Zanelli
 8411,31-03-2018,Eastman,Michael O'Herlihy,106,137,1011,313,Buddy Ebsen,,,,Walter Brennan,The One and Only Genuine Original Family Band,,,Lesley Ann Warren,,,,,,,,,2018,,,,,Walt Disney Productions,,,,,,Jack Elliott
 8412,19-09-2019,Eastman,Adam Michael Shankman,283,115,841,103,Lauren Graham,,,,Vin Diesel,The Pacifier,,,"Faith Ford, Brittany Snow",,,,,,,,,2019,,,,,Walt Disney Productions,,,,,,John Debney
@@ -8439,7 +8440,7 @@
 8439,16-09-1981,Color,Norman Tokar,183,106,302,127,Suzanne Pleshette,,,,Dean Jones,The Ugly Dachshund,,,Charles Ruggles,,,,,,,,,1981,,,,,Walt Disney Productions,,,,,,George Bruns
 8440,12-02-1982,Color,James Algar,157,117,334,106,,,,,Winston Hibler,The Vanishing Prairie,,,,,,,,,,,,1982,,,,,Walt Disney Productions,,,,,,Paul J. Smith
 8441,25-05-1982,Color,John Hough,196,129,1086,225,Tallulah Evans,,,,Anjelica Huston,The Watcher in the Woods,,,Nicholas Galitzine,,,,,,,,,1982,,,,,Walt Disney Productions,,,,,,Felix Bird
-8442,23-02-1984,Color,Jean-Marc Vallï¿½e,64,116,1214,283,Jim Belushi,,,,Kiefer Sutherland,The Wild,,,Eddie Izzard,,,,,,,,,1984,,,,,Walt Disney Productions,,,,,,Alan Silvestri
+8442,23-02-1984,Color,Jean-Marc Vallée,64,116,1214,283,Jim Belushi,,,,Kiefer Sutherland,The Wild,,,Eddie Izzard,,,,,,,,,1984,,,,,Walt Disney Productions,,,,,,Alan Silvestri
 8443,09-05-1984,Color,"Maclain Way, Chapman Way",142,114,681,234,Vera Miles,,,,Steve Forrest,The Wild Country,,,Ron Howard,,,,,,,,,1984,,,,,Walt Disney Productions,,,,,,Robert F. Brunner
 8444,06-06-1987,Color,Robert Scheerer,181,114,1000,252,Jan-Michael Vincent,,,,Tim Conway,The World's Greatest Athlete,,,John Amos,,,,,,,,,1987,,,,,Walt Disney Productions,,,,,,Marvin Hamlisch
 8445,21-11-1992,Color,Simon Wincer,240,96,722,236,Biana Tamimi,,,,Richard Romanus,The Young Black Stallion,,,Patrick Elyas,,,,,,,,,1992,,,,,Walt Disney Productions,,,,,,William Ross
@@ -8458,7 +8459,7 @@
 8458,11-08-2014,Color,"Ron Clements, John Musker",206,108,1131,288,Corey Burton,,,,Roscoe Lee Browne,Treasure Planet,,,Emma Thompson,,,,,,,,,2014,,,,,Walt Disney Productions,,,,,,James Newton Howard
 8459,28-08-2017,Color,Vincent Michael McEveety,239,108,202,214,Vic Morrow,,,,Joan Hackett,Treasure of Matecumbe,,,Peter Ustinov,,,,,,,,,2017,,,,,Walt Disney Productions,,,,,,Buddy Baker
 8460,09-08-2018,Color,Michael John Tuchner,142,124,157,259,Robert Hays,,,,Margot Kidder,Trenchcoat,,,David Suchet,,,,,,,,,2018,,,,,Walt Disney Productions,,,,,,Charles Fox
-8461,08-10-1963,Color,Joseph Kosinskiï¿½,228,110,347,115,Garrett Hedlund,,,,"Jeff Bridges,ï¿½Olivia Wilde",Tron: Legacy,,,Michael Sheen,,,,,,,,,1963,,,,,Walt Disney Productions,,,,,,Thomas Bangalter
+8461,08-10-1963,Color,Joseph Kosinski ,228,110,347,115,Garrett Hedlund,,,,"Jeff Bridges, Olivia Wilde",Tron: Legacy,,,Michael Sheen,,,,,,,,,1963,,,,,Walt Disney Productions,,,,,,Thomas Bangalter
 8462,21-10-1963,Eastman,Jay Russell,256,91,982,102,William Hurt,,,,Alexis Bledel,Tuck Everlasting,,,Jonathan Jackson,,,,,,,,,1963,,,,,Walt Disney Productions,,,,,,Brian Bulman
 8463,11-08-1964,Eastman,Frederik Du Chau,222,107,1319,138,Peter Dinklage,,,,Jason Lee,Underdog,,,Taylor Momsen,,,,,,,,,1964,,,,,Walt Disney Productions,,,,,,Randy Edelman
 8464,15-07-1966,Eastman,Russell B. Mayberry,103,44,109,298,Jim Dale,,,,Dennis Dugan,Unidentified Flying Oddball,,,Sheila White,,,,,,,,,1966,,,,,Walt Disney Productions,,,,,,Ron Goodwin
@@ -8467,7 +8468,7 @@
 8467,17-04-1972,Eastman,"Frank Thomas, Clyde Geronimi, Jack Kinney, James Algar, Perce Pearce, Fred Moore, H. C. Potter, Hal Roach",236,104,615,309,Art Baker,,,,Alexander de Seversky,Victory Through Air Power,,,,,,,,,,,,1972,,,,,Walt Disney Productions,,,,,,Paul J. Smith
 8468,10-01-1973,Eastman,Andrew Stanton,157,138,599,128,Jeff Garlin,,,,"Ben Burtt, Elissa Knight",WALL-E,,,Fred Willard,,,,,,,,,1973,,,,,Walt Disney Productions,,,,,,Thomas Newman
 8469,21-06-1973,Eastman,Donald Paul Hahn,81,140,561,275,Don Hahn,,,,Ron Clements,Waking Sleeping Beauty,,,Rob Minkoff,,,,,,,,,1973,,,,,Walt Disney Productions,,,,,,Chris Bacon
-8470,28-12-1978,Eastman,Theodore Thomas,187,120,795,143,Lee Blair,,,,Flï¿½vio Barroso,Walt & El Grupo,,,Mary Blair,,,,,,,,,1978,,,,,Walt Disney Productions,,,,,,James Stemple
+8470,28-12-1978,Eastman,Theodore Thomas,187,120,795,143,Lee Blair,,,,Flávio Barroso,Walt & El Grupo,,,Mary Blair,,,,,,,,,1978,,,,,Walt Disney Productions,,,,,,James Stemple
 8471,17-12-1985,Color,William Washington Beaudine,238,122,1221,294,Fess Parker,,,,Kathleen Crowley,Westward Ho the Wagons!,,,Jeff York,,,,,,,,,1985,,,,,Walt Disney Productions,,,,,,George Bruns
 8472,30-05-1986,Color,John Randal Kleiser,107,83,367,267,Michael David Lally,,,,"Jed, Suzanne Kent",White Fang,,,David Fallon,,,,,,,,,1986,,,,,Walt Disney Productions,,,,,,Basil Poledouris
 8473,01-04-1988,Color,Kenneth Edward Olin,459,139,612,122,"Scott Bairstow,	Charmaine Craig",,,,"Al Harrington, Victoria Racimo",White Fang 2: Myth of the White Wolf,,,"Geoffrey Lewis, Victoria Racimo",,,,,,,,,1988,,,,,Walt Disney Productions,,,,,,Victoria Racimo
@@ -8476,6 +8477,6 @@
 8476,26-01-1990,Color,Louie Schwartzberg,80,130,949,115,,,,,Meryl Streep,Wings of Life,,,,,,,,,,,,1990,,,,,Walt Disney Productions,,,,,,Jan Holzner
 8477,21-12-1995,Color,Donald Hall,229,145,382,302,Bud Luckey,,,,"Jim Cummings, Craig Ferguson",Winnie the Pooh,,,John Cleese,,,,,,,,,1995,,,,,Walt Disney Productions,,,,,,"Kristen Anderson-Lopez,Henry Jackman,Robert Lopez"
 8478,17-12-1997,Eastman,Richard Moore,158,104,1280,236,"Jack McBrayer, Jane Lynch",,,,"Sarah Silverman, John C. Reilly",Wreck-It Ralph,,,"Sarah Silverman, John C. Reilly, Jack McBrayer, Jane Lynch",,,,,,,,,1997,,,,,Walt Disney Productions,,,,,,Henry Jackman
-8479,04-02-2004,Color,Satyajit Bhatkal,190,97,652,263,Darsheel Safary,,,,Anupam Kher,Zokkomon,,,Manjari Fadnnis,,,,,,,,,2004,,,,,Walt Disney Productions,,,,,,"Shankar Mahadevan, Shankarï¿½Ehsaanï¿½Loy, Loy Mendonsa, Ehsaan Noorani, Hitesh Sonik"
-8480,01-06-2006,Color,"Byron Howard, Rich Moore",176,178,966,187,Ginnifer Goodwin,,,,Jason Bateman,Zootopia,,,Don Lake,,,,,,,,,2006,,,,,Walt Disney Productions,,,,,,Michael Giacchino
+8479,04-02-2004,Color,Satyajit Bhatkal,190,97,652,263,Darsheel Safary,,,,Anupam Kher,Zokkomon,,,Manjari Fadnnis,,,,,,,,,2004,,,,,Walt Disney Productions,,,,,,"Shankar Mahadevan, Shankar–Ehsaan–Loy, Loy Mendonsa, Ehsaan Noorani, Hitesh Sonik"
+8480,01-06-2006,Color,"Byron Howard, Rich Moore", Rich Moore,178,966,187,Ginnifer Goodwin,,,,Jason Bateman,Zootopia,,,Don Lake,,,,,,,,,2006,,,,,Walt Disney Productions,,,,,,Michael Giacchino
 8481,05-08-2006,Color,Charles Barton,135,108,644,190,Guy Williams,,,,Charles Korvin,Zorro the Avenger,,,Henry Calvin,,,,,,,,,2006,,,,,Walt Disney Productions,,,,,,William Lava
