@@ -1277,3 +1277,37 @@ with open( file="countries.json", mode="r" ) as fs :
         print("-" * 45)
 
 #-----------------------------------------------------------------------------------------------------------
+
+"""
+author : saleel
+db: Redis
+function: map
+language: python
+"""
+
+# <editor-fold desc="all module imports">
+import redis
+import pandas
+import string
+import random
+import json
+
+
+# </editor-fold>
+
+def fn(l) -> object :
+    yield l
+
+
+otp = [(i, random.randint( 2789, 4839 )) for i in range( 1, 2 )]
+
+x = map( fn, otp )
+
+while (c := input( "Do you eant to continue? " )) in ['y', 'Y'] :
+    try :
+        for i in x.__next__() :
+            print( i )
+    except StopIteration :
+        print( StopIteration.value )
+        break
+#-----------------------------------------------------------------------------------------------------------
