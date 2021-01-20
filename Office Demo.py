@@ -63,14 +63,10 @@
 #------------------------------------------------------------------
 
 
-
-
-
 # string='saleel'
 # print(string[:4] if len(string) < 10 else string[0])
 
 # l = [i for i in range(1,11) if i < 7]
-
 
 
 
@@ -1234,3 +1230,50 @@
 #     for i in s:
 #         if i in key:
 #             print(i + value)
+
+
+
+#-----------------------------------------------------------------------------------------------------------
+
+"""
+author : saleel
+db: Redis
+language: python
+command : program to create multiple keys in Redis using python DICT()
+"""
+
+# <editor-fold desc="all module imports">
+import redis
+import pandas
+import string
+import json
+
+# </editor-fold>
+
+client = redis.Redis( host='127.0.0.1', port="6379", db=2 )
+client.flushdb()
+
+d = dict( { "_id" : "1001", "firstName" : "saleel", "isActive" : 1 } )
+print( d )
+client.hset( "person", mapping=d )
+#
+x = None
+
+
+def fn(d) -> object :
+
+    for i in d :
+        yield i
+
+
+with open( file="countries.json", mode="r" ) as fs :
+    data1 = json.load( fp=fs )
+    x = filter( fn, data1 )
+    while ( c := input("Do you want to continue? ") in ['Y', 'y', '1'] ) :
+        print()
+        print("-" * 45)
+        for key, value in x.__next__().items():
+            print(f"{key=} {value=}")
+        print("-" * 45)
+
+#-----------------------------------------------------------------------------------------------------------
