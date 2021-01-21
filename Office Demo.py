@@ -968,6 +968,8 @@
 
 # # df.fillna('Not Available', inplace=True)
 
+# df["color"].fillna("No Data", inplace=True)
+
 # df.fillna(value={"color": "Color", "critic": 450, "director":"Not Available", "director_facebook":"Not Available"}, inplace=True)
 
 # # print(df.columns)
