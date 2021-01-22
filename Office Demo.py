@@ -980,6 +980,10 @@
 
 # df.sort_values("duration", inplace=True)
 
+df.rename(columns={"Day" : "New Day", "Month":"New Month"}, inplace=True)
+print( df.columns )
+print ( df[["New Day", "New Month", "Year"]] )
+
 # print(df[["color", "director","movie_title","critic","duration","director_facebook","actor_3_facebook","actor_2_name"]][df["duration"] == 150])
 
 # print(df[["color", "director","movie_title","critic","duration","director_facebook","actor_3_facebook","actor_2_name"]][df["duration"] >= 450])
