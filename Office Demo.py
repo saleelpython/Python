@@ -1,5 +1,18 @@
 #https://github.com/KeithGalli/Pandas-Data-Science-Tasks
 
+func(value)	            Caller	    Normal argument: matched by position
+func(name=value)    	Caller	    Keyword argument: matched by name
+func(*sequence)	        Caller	    Pass all object in sequence as individual positional arguments
+func(**dict)	        Caller	    Pass all key/value pairs in dict as individual keyword arguments
+def func(name)	        Function	Normal argument: matched any passed value by position or name
+def func(name=value)	Function	Default argument value, if not passed in the call
+def func(*name)	        Function	Matches and collects remaining positional arguments in a tuple
+def func(**name)	    Function	Matches and collects remaining keyword arguments in a dictionary
+def func(*args, name)	Function	Arguments that must be passed by keyword only in calls
+
+
+
+
 # True and non-empty things are true. Number 1 is true.
 # False, None, zero, and empty things are false.
 
