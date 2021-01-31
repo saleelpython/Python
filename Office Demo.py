@@ -1048,6 +1048,9 @@ print(df[["Day", "Year"]].info())
 # print(df[['ename', "name_match"]])
 
 
+print( df[["_id", "release", "color", "director", "critic", "duration", "language", "country", "budget", "title_year",
+           "production houses", "Week1", "week2", "week3", "week4", "isActive"]].loc[0 :1] )
+
 
 # print()
 # print()
