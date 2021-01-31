@@ -994,7 +994,14 @@ def func(*args, name)	Function    Arguments that must be passed by keyword only 
 
 df.rename(columns={"Day" : "New Day", "Month":"New Month"}, inplace=True)
 print( df.columns )
+
+df.rename( columns={ "Customer_Age" : "Customer Age", "Age_Group" : "AgeGroup", "Customer_Gender" : "Customer Gender",
+                     "Product_Category" : "Product Category", "Order_Quantity" : "Order Quantity",
+                     "Unit_Cost" : "Unit Cost", "Unit_Price" : "Unit Price" }, inplace=True )
+
+
 print( len( df.columns ) )
+
 print ( df[["New Day", "New Month", "Year"]] )
 
 print(df.describe())
