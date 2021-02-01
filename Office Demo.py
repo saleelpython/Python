@@ -70,8 +70,11 @@ countries = [{ "name" : "Afghanistan", "code" : "AF" },
              { "name" : "rgentina", "code" : "AR" },
              { "name" : "rmenia", "code" : "AM" }]
 
- print( [{ k, v } for i in countries for k, v in i.items()] )
+print( [{ k, v } for i in countries for k, v in i.items()] )
 
+print( [[True, False][i % 2 == 0] for i in n] ) 
+print( [True if i % 2 == 0 else False for i in n] )
+     
     
 # Eg of List - []
 
