@@ -43,6 +43,36 @@ def func(*args, name)	Function    Arguments that must be passed by keyword only 
 # new_list = [expression(i) for i in old_list if filter(i)]
 
 
+x = [val
+     for sublist in matrix
+     for val in sublist]
+
+
+# Nested IF with List Comprehension
+num_list = [y for y in range(100) if y % 2 == 0 if y % 5 == 0]
+print(num_list)
+
+# if...else With List Comprehension
+num_list = ["Even" if i%2==0 else "Odd" for i in range(10)]
+print(num_list)
+
+
+countries = [{ "name" : "Afghanistan", "code" : "AF" },
+             { "name" : "land Islands", "code" : "AX" },
+             { "name" : "lbania", "code" : "AL" },
+             { "name" : "lgeria", "code" : "DZ" },
+             { "name" : "merican Samoa", "code" : "AS" },
+             { "name" : "ndorrA", "code" : "AD" },
+             { "name" : "ngola", "code" : "AO" },
+             { "name" : "nguilla", "code" : "AI" },
+             { "name" : "ntarctica", "code" : "AQ" },
+             { "name" : "ntigua and Barbuda", "code" : "AG" },
+             { "name" : "rgentina", "code" : "AR" },
+             { "name" : "rmenia", "code" : "AM" }]
+
+ print( [{ k, v } for i in countries for k, v in i.items()] )
+
+    
 # Eg of List - []
 
 # names = ['saleel','amit','sharmin','vrushali','saleel','sharmin','ram','laxman','anoop','sachin','suraj','amol','pankaj','neel','deep','nitish','sharmin','ruhan','bandish','supriya','sangita','suraj','vrushali']
