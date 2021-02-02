@@ -83,6 +83,15 @@ n3 = [5, 6, 7, 8, 9]
 s = pandas.Series( [f'({y}, {"*" * y})' for i in n2 for y in n3] )
 print( s )
 
+#--------------------------------------------------------------------------------------------------
+                    
+n1 = [random.randint( 1, 30 ) for i in range( 20 )]
+s = pandas.Series( data=[(i, "*" * i) for i in n1], index=[n1] )
+s.sort_index( ascending=True, inplace=True )
+print( s )
+ 
+
+
 # Eg of List - []
 
 # names = ['saleel','amit','sharmin','vrushali','saleel','sharmin','ram','laxman','anoop','sachin','suraj','amol','pankaj','neel','deep','nitish','sharmin','ruhan','bandish','supriya','sangita','suraj','vrushali']
