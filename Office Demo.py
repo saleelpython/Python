@@ -91,7 +91,33 @@ s.sort_index( ascending=True, inplace=True )
 print( s )
  
 
+                    x =[{
+    "color" : "black",
+    "price" : 49.99,
+    "style" : "fitted",
+    "quantity" : 1000,
+    "purchased" : 0,
+},
+    {
+        "color" : "maroon",
+        "price" : 59.99,
+        "style" : "hipster",
+        "quantity" : 500,
+        "purchased" : 0,
+    },
+    {
+        "color" : "green",
+        "price" : 99.99,
+        "style" : "baseball",
+        "quantity" : 200,
+        "purchased" : 0,
+    }]
 
+print( x[random.randint(0, 2)] )
+
+#--------------------------------------------------------------------------------------------------
+                    
+                    
 # Eg of List - []
 
 # names = ['saleel','amit','sharmin','vrushali','saleel','sharmin','ram','laxman','anoop','sachin','suraj','amol','pankaj','neel','deep','nitish','sharmin','ruhan','bandish','supriya','sangita','suraj','vrushali']
