@@ -76,6 +76,13 @@ print( [[True, False][i % 2 == 0] for i in n] )
 print( [True if i % 2 == 0 else False for i in n] )
      
     
+n1 = [1, 2, 3]
+n2 = [2, 3, 4, 5]
+n3 = [5, 6, 7, 8, 9]
+
+s = pandas.Series( [f'({y}, {"*" * y})' for i in n2 for y in n3] )
+print( s )
+
 # Eg of List - []
 
 # names = ['saleel','amit','sharmin','vrushali','saleel','sharmin','ram','laxman','anoop','sachin','suraj','amol','pankaj','neel','deep','nitish','sharmin','ruhan','bandish','supriya','sangita','suraj','vrushali']
