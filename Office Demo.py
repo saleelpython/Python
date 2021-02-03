@@ -116,8 +116,18 @@ print( s )
 print( x[random.randint(0, 2)] )
 
 #--------------------------------------------------------------------------------------------------
-                    
-                    
+
+def fn(s) -> object :
+    return s > 10
+
+
+x = [1, 2, 0, 33, 1, 2, False, 14, 21, 4, 1, True]
+
+y = filter( fn, x )
+print(list(y))
+
+#--------------------------------------------------------------------------------------------------                    
+
 # Eg of List - []
 
 # names = ['saleel','amit','sharmin','vrushali','saleel','sharmin','ram','laxman','anoop','sachin','suraj','amol','pankaj','neel','deep','nitish','sharmin','ruhan','bandish','supriya','sangita','suraj','vrushali']
