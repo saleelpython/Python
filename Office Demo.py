@@ -126,7 +126,27 @@ x = [1, 2, 0, 33, 1, 2, False, 14, 21, 4, 1, True]
 y = filter( fn, x )
 print(list(y))
 
-#--------------------------------------------------------------------------------------------------                    
+#--------------------------------------------------------------------------------------------------
+                    
+def fnMap(mapNames) -> str :
+    return mapNames
+
+
+def fnFilter(filterNames) -> str :
+    return filterNames
+
+
+names = ['saleel', 'sharmin', 'ruhan', 'neel', 'deep', 'nitish', 0, False, True, -1]
+
+x1 = map( fnMap, names )
+x2 = filter( fnFilter, names )
+
+print( "Map:- " + str( list( x1 ) ) )
+print()
+print( "Filter:- " + str( list( x2 ) ) );
+print()
+
+#--------------------------------------------------------------------------------------------------
 
 # Eg of List - []
 
