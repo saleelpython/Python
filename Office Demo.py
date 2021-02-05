@@ -1,5 +1,11 @@
 #https://github.com/KeithGalli/Pandas-Data-Science-Tasks
 
+Ordering Arguments in a Function
+
+1. Standard arguments
+2. *args arguments
+3. **kwargs arguments
+
 
 func(value)             Caller      Normal argument: matched by position
 func(name=value)        Caller      Keyword argument: matched by name
@@ -28,8 +34,13 @@ The all() method returns:
 True - If all elements in an iterable are true.
 False - If any element in an iterable is false.
 
-# True and non-empty things are true. Number 1 is true.
-# False, None, zero, and empty things are false.
+True and non-empty things are true. Number 1 is true.
+False, None, zero, and empty things are false.
+
+
+dict1 = zip( [1, 2, 3], [11, 22, 33] )
+print( dict(dict1 ))
+
 
 #!C:\Users\saleel\AppData\Local\Programs\Python\Python37-32\python
 
