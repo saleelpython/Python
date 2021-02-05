@@ -11,6 +11,8 @@ def func(*name)	        Function    Matches and collects remaining positional ar
 def func(**name)        Function    Matches and collects remaining keyword arguments in a dictionary
 def func(*args, name)	Function    Arguments that must be passed by keyword only in calls
 
+Ternary Operator
+[on_true] if [expression] else [on_false]
 
 # True and non-empty things are true. Number 1 is true.
 # False, None, zero, and empty things are false.
