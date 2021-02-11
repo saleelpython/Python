@@ -17,18 +17,20 @@ def func(*name)	        Function    Matches and collects remaining positional ar
 def func(**name)        Function    Matches and collects remaining keyword arguments in a dictionary
 def func(*args, name)	Function    Arguments that must be passed by keyword only in calls
 
-
+------------------------------------------------------------------------------------------------------------------
 
 Ternary Operator
 [on_true] if [expression] else [on_false]
 
+print( [False, True][False] )
 
+------------------------------------------------------------------------------------------------------------------
 
 The any() method returns:
 True if at least one element of an iterable is true.
 False if all elements are false or if an iterable is empty.
 
-
+------------------------------------------------------------------------------------------------------------------
 
 The all() method returns:
 True - If all elements in an iterable are true.
@@ -37,6 +39,7 @@ False - If any element in an iterable is false.
 True and non-empty things are True. Number 1 is True.
 False, None, zero, and empty things are False. Number 0 is False.
 
+------------------------------------------------------------------------------------------------------------------
 
 dict1 = zip( [1, 2, 3], [11, 22, 33] )
 print( dict(dict1 ))
