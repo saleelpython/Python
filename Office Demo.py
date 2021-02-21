@@ -1203,6 +1203,8 @@ print(df[["Day", "Year"]].info())
 
 print( df.loc[:13,["director","movie_title"]])
 
+print( df.iloc[:13, [3, 13]] )
+
 # If condition in Pandas
 
 # df.loc[df['ename'] == 'Sara', 'name_match'] = 'Match'
