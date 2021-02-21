@@ -1201,9 +1201,21 @@ print(df[["Day", "Year"]].info())
 
 # print(df.iloc[0])
 
+print( df.iloc[:13, [3, 13]] )
+
+print( df.loc[[4,7],["movie_title", "director"]] )
+
+print( df.loc[0] )
+
+print( df.loc[[1, 5, 7, 9]] )
+
+print( df.loc[0 : 7] )
+
 print( df.loc[:13,["director","movie_title"]])
 
-print( df.iloc[:13, [3, 13]] )
+print( df.loc[[1, 5, 7, 9], ["_id", "release", "movie_title", "director"]] )
+
+print( df.loc[1 :12 :2, ["_id", "release", "movie_title", "director"]] )
 
 # If condition in Pandas
 
