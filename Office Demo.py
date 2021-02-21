@@ -1217,6 +1217,8 @@ print( df.loc[[1, 5, 7, 9], ["_id", "release", "movie_title", "director"]] )
 
 print( df.loc[1 :12 :2, ["_id", "release", "movie_title", "director"]] )
 
+print( df.loc[["Avon 9", "Ther 15"], ["_id", "release", "movie_title", "director"]] )
+
 # If condition in Pandas
 
 # df.loc[df['ename'] == 'Sara', 'name_match'] = 'Match'
