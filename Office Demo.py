@@ -1201,6 +1201,7 @@ print(df[["Day", "Year"]].info())
 
 # print(df.iloc[0])
 
+print( df.loc[:13,["director","movie_title"]])
 
 # If condition in Pandas
 
