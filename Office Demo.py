@@ -1199,7 +1199,7 @@ print(df[["Day", "Year"]].info())
 # df["cards"] = "Master"
 # df.index= ["Index - " + str(i) for i in range(df["_id"].count())]
 
-# print(df.iloc[0])
+print(df.iloc[0])
 
 print( df.iloc[:13, [3, 13]] )
 
@@ -1232,6 +1232,10 @@ print( df.iloc[[1, 3, 5, 7], [1, 3, 4, 5]] )  # index_col="imdb"  then [1, 3, 4,
 print( df[["_id", "release", "color", "director", "critic", "duration", "language", "country", "budget", "title_year",
            "production houses", "Week1", "week2", "week3", "week4", "isActive"]].loc[0 :1] )
 
+
+print( df[["_id", "release", "color", "movie_title", "director", "critic", "duration", "language", "country",
+           "content_rating", "budget", "title_year", "production houses", "week1", "week2", "week3", "week4", "isActive",
+           "music", "revenue"]][pandas.isnull( df["color"] )] )
 
 # print()
 # print()
