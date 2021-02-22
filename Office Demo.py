@@ -1219,6 +1219,9 @@ print( df.loc[1 :12 :2, ["_id", "release", "movie_title", "director"]] )
 
 print( df.loc[["Avon 9", "Ther 15"], ["_id", "release", "movie_title", "director"]] )
 
+print( df.iloc[[1, 3, 5, 7], [1, 3, 4, 5]] )  # index_col="imdb"  then [1, 3, 4, 5] is column index numbers 
+
+
 # If condition in Pandas
 
 # df.loc[df['ename'] == 'Sara', 'name_match'] = 'Match'
