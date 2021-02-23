@@ -1249,6 +1249,14 @@ print( df[["_id", "release", "color", "movie_title", "director", "critic", "dura
            "content_rating", "budget", "title_year", "production houses", "week1", "week2", "week3", "week4", "isActive",
            "music", "revenue"]][df['duration'].notna()] )
 
+numpy and pandas
+                    
+numpy.set_printoptions( linewidth=numpy.inf )
+x = numpy.empty( shape=0, dtype=str )
+x = numpy.append( x, df["movie_title"] )
+print( x )
+                    
+                    
 # print()
 # print()
 
