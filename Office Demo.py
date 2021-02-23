@@ -1235,7 +1235,19 @@ print( df[["_id", "release", "color", "director", "critic", "duration", "languag
 
 print( df[["_id", "release", "color", "movie_title", "director", "critic", "duration", "language", "country",
            "content_rating", "budget", "title_year", "production houses", "week1", "week2", "week3", "week4", "isActive",
-           "music", "revenue"]][pandas.isnull( df["color"] )] )
+           "music", "revenue"]][df['duration'].isnull()] )
+
+print( df[["_id", "release", "color", "movie_title", "director", "critic", "duration", "language", "country",
+           "content_rating", "budget", "title_year", "production houses", "week1", "week2", "week3", "week4", "isActive",
+           "music", "revenue"]][df['duration'].isna()] )
+
+print( df[["_id", "release", "color", "movie_title", "director", "critic", "duration", "language", "country",
+           "content_rating", "budget", "title_year", "production houses", "week1", "week2", "week3", "week4", "isActive",
+           "music", "revenue"]][df['duration'].notnull()] )
+#
+print( df[["_id", "release", "color", "movie_title", "director", "critic", "duration", "language", "country",
+           "content_rating", "budget", "title_year", "production houses", "week1", "week2", "week3", "week4", "isActive",
+           "music", "revenue"]][df['duration'].notna()] )
 
 # print()
 # print()
