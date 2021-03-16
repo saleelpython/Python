@@ -71,6 +71,23 @@ nameList.sort(key=fn)
 print(nameList)
 
 ------------------------------------------------------------------------------------------------------------------
+
+with open( file="employees.csv", mode="r" ) as fs :
+    data = csv.reader( fs )
+    x4 = numpy.array( [i[0].strip() for i in data][1 :] )
+
+    if divmod( len( x4 ), 5 )[1] != 0 :
+        x4 = numpy.append( x4, None )
+
+    totalElements = len( x4 )
+    rows = totalElements // 5
+
+    x4 = numpy.reshape( x4, (rows, 5) )
+    print( x4 )
+
+------------------------------------------------------------------------------------------------------------------
+
+
 #!C:\Users\saleel\AppData\Local\Programs\Python\Python37-32\python
 
 
