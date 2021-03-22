@@ -58,6 +58,17 @@ print( max( [23, 345, 456], default= 1001) )
 print( max( [], default= 1001) )
 
 ------------------------------------------------------------------------------------------------------------------
+# Now pass key=fn to sort() to sort by the second letter in the list:
+
+x1 = ['banana', 'watermelon', 'lime', 'orange', 'grapes', 'apple', 'mango', 'cherry', 'blackberries', 'blueberries', 'kiwi']
+def fn(d: list) -> str :
+    # print( d[1] )
+    return d[1]
+
+x1.sort( key=fn )
+print( x1 )
+
+------------------------------------------------------------------------------------------------------------------
 
 nameList = ['saleel', 'ruhan', 'boy', 'nitish', 'sharmin', 'rahul', 'pankaj', 'deep', 'natu', 'kay', 'bhuru', 'ami',
             'j', 'Jo']
