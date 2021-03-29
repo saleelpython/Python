@@ -169,6 +169,11 @@ print( s )
 
 #--------------------------------------------------------------------------------------------------
                     
+x = numpy.random.randint( 100000, size=(10, 10) )
+print( x )                  
+                    
+#--------------------------------------------------------------------------------------------------
+                    
 n1 = [random.randint( 1, 30 ) for i in range( 20 )]
 s = pandas.Series( data=[(i, "*" * i) for i in n1], index=[n1] )
 s.sort_index( ascending=True, inplace=True )
