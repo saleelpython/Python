@@ -1238,6 +1238,9 @@ df.set_index( "patient", inplace=True )
                     
 patient = pandas.Series( ["patient-" + str( i ) for i in range( max( df.index ) + 1 )] )
 df.index = patient
+
+                    
+df.index = ["patient-" + str( i ) for i in range( max( df.index ) + 1 )]
                     
 
 print(df.iloc[0])
