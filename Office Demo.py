@@ -1231,6 +1231,14 @@ print(df[["Day", "Year"]].info())
 
 # df["cards"] = "Master"
 # df.index= ["Index - " + str(i) for i in range(df["_id"].count())]
+                    
+df["patient"] = ["patient-" + str( i ) for i in range( max( df.index ) + 1  )]
+df.set_index( "patient", inplace=True )
+
+                    
+patient = pandas.Series( ["patient-" + str( i ) for i in range( max( df.index ) + 1 )] )
+df.index = patient
+                    
 
 print(df.iloc[0])
 
