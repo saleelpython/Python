@@ -172,6 +172,15 @@ login = [{ "id" : 1001, "user" : "saleel", "password" : "saleel@431", "createdON
          { "id" : 1002, "user" : "sharmin", "password" : "sharmin@431", "createdON" : "22-04-2021", "isActive" : True,
            "expireON" : "01-01-2030" }]
 
+a = pandas.Series( data=login, index=["Row" + str( i + 1 ) for i in numpy.arange( 0, len( login ) )] )
+print( a )
+
+#--------------------------------------------------------------------------------------------------
+
+login = [{ "id" : 1001, "user" : "saleel", "password" : "saleel@431", "createdON" : "22-04-2021", "isActive" : True },
+         { "id" : 1002, "user" : "sharmin", "password" : "sharmin@431", "createdON" : "22-04-2021", "isActive" : True,
+           "expireON" : "01-01-2030" }]
+
 for i in login :
     for key, value in i.items() :
         print( f"{key=} {value=}" )
